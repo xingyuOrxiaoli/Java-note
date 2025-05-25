@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c995d91-1580-4699-bcff-804fff5ec056" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/map/HashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/map/LinkedHashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/map/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/map/TreeMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/Collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/Collection.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/HashSetAboutStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/HashSetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/LinkedHashSetAboutStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/LinkedHashSetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/TreeSetAboutStudent$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/TreeSetAboutStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/TreeSetTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collection/Collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/Collection.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/HashSetAboutStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/HashSetAboutStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/HashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/HashSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/LinkedHashSetAboutStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/LinkedHashSetAboutStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/LinkedHashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/LinkedHashSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/TreeSetAboutStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/TreeSetAboutStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/TreeSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/TreeSetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +169,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748160425683</updated>
-      <workItem from="1748160426838" duration="7490000" />
+      <workItem from="1748160426838" duration="8386000" />
     </task>
     <servers />
   </component>

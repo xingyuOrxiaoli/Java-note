@@ -125,6 +125,24 @@ hashtable 也叫散列表
 
 [TreeMap相关代码](map%2FTreeMapTest.java)
 
+#### TreeMap源码介绍
+
+-  基本特征: 二叉树、二叉查找树、二叉平衡树、红黑树
+-  节点结构:
+  - key 
+  - value  
+  - left   左孩子节点
+  - right  右孩子节点
+  - parent 父节点
+  - color  默认为黑色
+- 成员变量
+  - comparator 外部比较器
+  - size  节点数
+  - root  指向根节点一个引用 默认为null  如果root为null说明一个节点都没有
+- 优先使用外部比较器
+- 红黑树的旋转  四种情况的旋转
+
+
 
 
 
