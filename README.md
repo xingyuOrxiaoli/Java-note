@@ -1,2 +1,26 @@
 # Java-note
 关于Java知识复习的记录仓库的代码
+
+# 目录
+
+| 目录                       |                           介绍                            |
+|:-------------------------|:-------------------------------------------------------:|
+| [JavaSE记录](JavaSE)       |              [关于Java的基础使用和特性](JavaSE/JavaSE.md)               |
+| [JavaUtils记录](JavaUtils) |        [关于Java的各种工具的使用记录](JavaUtils%2Fpython.md)        |
+| [JavaWeb](JavaWeb)       |   [关于JavaWeb中的JSP、Tomcat等的基础使用](JavaWeb%2Fpython.md)    |
+| [功能实现记录](Function)       |          [关于各种常见功能分离的记录](Function%2Fpython.md)          |
+| [Spring等开发框架基础使用](Frame) |        [关于Spring 相关框架的基础使用记录](Frame%2Fpython.md)        |
+| [数据库记录](DBUse)           |       [关于各种数据库的使用记录，如SQL语言等等](DBUse%2Fpython.md)        |
+| [数据库框架](DBFrame)         | [关于数据库方面的各种框架如MyBatis、MyCat等的基础使用](DBFrame%2Fpython.md) |
+| [设计模式](DesignMode)       |         [关于设计模式方面的代码记录](DesignMode%2Fpython.md)         |
+| [并发编程](Concurrent)       |          [关于并发编程方面的问题](Concurrent%2Fpython.md)          |
+| [中间件](MiddleWare)        |    [关于各种中间的使用以及Java如何调用的记录](MiddleWare%2Fpython.md)     |
+| [开发工具](Tools)            |        [关于Maven、Git等等基础使用的记录](Tools%2Fpython.md)        |
+| [Linux基础命令](LinuxShell)  |        [关于Linux基础命令的使用](LinuxShell%2Fpython.md)         |
+| [Project](Project)       |       [关于使用Java实现的项目代码存储问价夹](Project%2Fpython.md)       |
+| [面试题](FaceQA)            |            [各种面试题自己的总结](FaceQA%2Fpython.md)             |
+
+
+
+
+
