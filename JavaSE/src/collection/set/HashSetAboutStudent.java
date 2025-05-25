@@ -1,11 +1,11 @@
-package collection;
+package collection.set;
 
-import java.util.LinkedHashSet;
+import java.util.HashSet;
 import java.util.Set;
 
-public class LinkedHashSetAboutStudent {
+public class HashSetAboutStudent {
     public static void main(String[] args) {
-        Set<Student> set = new LinkedHashSet<Student>();
+        Set<Student> set = new HashSet<Student>();
 
         Student student1 = new Student(1, "小李1号", 18, 80);
         Student student2 = new Student(2, "小李2号", 19, 81);

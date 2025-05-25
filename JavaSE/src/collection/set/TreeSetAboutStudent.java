@@ -1,4 +1,4 @@
-package collection;
+package collection.set;
 
 import java.util.Comparator;
 import java.util.Set;
