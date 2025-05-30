@@ -5,47 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c995d91-1580-4699-bcff-804fff5ec056" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../FaceQA/FaceQA.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_file/FileBufferReaderWriterTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_file/FileBufferStreamTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_file/FileReaderWriterTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_file/FileStreamTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/CollectionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/first/TestVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/third/ConcurrentHashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/third/CopyOnWriteArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/genericity/Genericity.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/genericity/genericity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/DataStreamTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/FileBufferReaderWriterTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/FileBufferReaderWriterTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/FileBufferReaderWriterTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/FileBufferStreamTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/FileBufferStreamTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/FileReaderWriterTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/FileReaderWriterTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/FileStreamTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/FileStreamTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/ObjectStreamTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/io.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/PrintStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/StreamToReaderAndWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/TestOtherStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/Collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/Collection.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/HashMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/HashMapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/LinkedHashMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/LinkedHashMapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/TreeMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/TreeMapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/HashSetAboutStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/HashSetAboutStudent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/HashSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/HashSetTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/LinkedHashSetAboutStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/LinkedHashSetAboutStudent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/LinkedHashSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/LinkedHashSetTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetAboutStudent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetAboutStudent$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetAboutStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetAboutStudent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/Collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/Collection.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/ObjectStreamTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/ObjectStreamTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/io.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/io.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,11 +88,14 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15527344",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "settings.editor.selected.configurable": "Errors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="io" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\note\github\Java-note\JavaSE\io_file" />
     </key>
@@ -232,7 +201,7 @@
       <workItem from="1748160426838" duration="13700000" />
       <workItem from="1748268044945" duration="2958000" />
       <workItem from="1748313817765" duration="7566000" />
-      <workItem from="1748519046591" duration="8696000" />
+      <workItem from="1748519046591" duration="11564000" />
     </task>
     <servers />
   </component>

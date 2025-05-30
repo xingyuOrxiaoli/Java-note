@@ -3,7 +3,7 @@ package io;
 import java.io.*;
 import java.sql.Date;
 
-public class ObjectStreamTest1 {
+public class ObjectStreamTest1 implements Serializable{
     public static void main(String[] args) throws IOException, ClassNotFoundException {
 //        write();
         read();
@@ -82,6 +82,7 @@ public class ObjectStreamTest1 {
 }
 
 class Student1 implements Serializable{
+
     private String name;
     private int age;
 

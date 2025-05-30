@@ -83,4 +83,31 @@ BufferedReader 和 BufferedWriter
 - 序列化Serialization    : 将对象的状态信息转换可以存储或传输的形式
 - 过程                   : 对象(内存) --> 字节数组 字节序列化(外存,网络)
 - 反序列化DeSerialization : 字节数组、字节序列(外存，网络) ---> 对象(内存) 
+- static 不参与序列化
+- transient关键字修饰的成员变量也不参与序列化  -> 只在内存存在
+- 设置idea自动生成序列化ID
+  - setting  -> 搜索 inspections  -> 搜索 serialVersionUID -> 勾选 Serializable non-static inner class without 'serialVersionUID'
 
+## 其他流
+
+### 打印 PrintStream
+-  写到文本中都是文本字符，不论什么类型，写到文本文件就会丢失了原本的类型，都变成String类型
+
+[使用PrintStream 使用相关代码](PrintStreamTest.java)
+
+### 转换流
+
+- 只能字节转换字符
+- 不能字符转字节
+
+InputStreamReader和OutputStreamWriter
+
+[转换流使用相关代码](StreamToReaderAndWriter.java)
+
+### 其他等
+
+[其他等](TestOtherStream.java)
+
+## 涉及的设计模式
+- 适配器设计模式 转换流
+- 装饰模式  继承的一种替代方案，可以大大的减少子类的数量 
