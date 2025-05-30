@@ -5,7 +5,7 @@
 
 | 目录                       |                           介绍                            |
 |:-------------------------|:-------------------------------------------------------:|
-| [JavaSE记录](JavaSE)       |              [关于Java的基础使用和特性](JavaSE/JavaSE.md)               |
+| [JavaSE记录](JavaSE)       |           [关于Java的基础使用和特性](JavaSE/JavaSE.md)            |
 | [JavaUtils记录](JavaUtils) |        [关于Java的各种工具的使用记录](JavaUtils%2Fpython.md)        |
 | [JavaWeb](JavaWeb)       |   [关于JavaWeb中的JSP、Tomcat等的基础使用](JavaWeb%2Fpython.md)    |
 | [功能实现记录](Function)       |          [关于各种常见功能分离的记录](Function%2Fpython.md)          |
@@ -18,7 +18,7 @@
 | [开发工具](Tools)            |        [关于Maven、Git等等基础使用的记录](Tools%2Fpython.md)        |
 | [Linux基础命令](LinuxShell)  |        [关于Linux基础命令的使用](LinuxShell%2Fpython.md)         |
 | [Project](Project)       |       [关于使用Java实现的项目代码存储问价夹](Project%2Fpython.md)       |
-| [面试题](FaceQA)            |            [各种面试题自己的总结](FaceQA%2Fpython.md)             |
+| [面试题](FaceQA)            |             [各种面试题自己的总结](FaceQA/FaceQA.md)              |
 
 
 
