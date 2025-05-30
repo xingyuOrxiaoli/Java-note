@@ -17,6 +17,9 @@
 
 [HashSet存储自定义类相关代码](HashSetAboutStudent.java)
 
+#### HashSet源码简单介绍
+
+- 底层是new一个HashMap  ，并且所有的key对应的value是同一个
 
 
 ### LinkedHashSet
@@ -45,6 +48,9 @@
 - 也可以定义外部外部比较类，优先使用外部比较类
 [TreeSet存储自定义类相关代码](TreeSetAboutStudent.java)
 
+#### TreeSet源码简单介绍
+
+- 底层是new一个TreeMap  ，并且所有的key对应的value是同一个
 
 
 ## Hash 哈希表的结构和特点
@@ -82,6 +88,7 @@ hashtable 也叫散列表
 
 #### HashMap相关源码介绍
 
+- **扩容为 2 倍**
 - JDK7之前，HashMap底层是一个table数组+链表实现的哈希表存储结构
   - Entry 实现Map.Entry<K,V>
     - final K key 属性   key值
@@ -105,7 +112,7 @@ hashtable 也叫散列表
     - DEFAULT_LOAD_FACTOR 默认的加载因子  0.75
     - TREEIFY_THRESHOLD(新增的常量) 变为红黑树的长度阈值 8
     - UNTREEIFY_THRESHOLD(新增的常量) 红黑树降为链表的阈值 6
-    - 
+
 
 ### LinkedHashMap
 
@@ -143,7 +150,39 @@ hashtable 也叫散列表
 - 红黑树的旋转  四种情况的旋转
 
 
+## 迭代器
 
+- 迭代器遍历可以删除集合中的元素 ， 相对循环结构进行遍历可能会抛出异常
+
+- ListIterator和Iterator的关系
+  - 前者是后者的一个子类
+  - 前者正逆向进行遍历，而后者只能正向遍历
+
+
+## Collections 集合工具类
+
+[Collections 集合工具类介绍相关代码](CollectionsTest.java)
+
+
+## 旧一代集合介绍
+
+### Hashtable
+- Hashtable继承Dictionary 
+- 线程安全
+- 不允许null值
+
+### Vector
+- 实现原理和ArrayList相同，功能相同，都是长度可变的数据结构
+- Vector是早期JDK接口，ArrayList是替代Vector的新接口
+- Vector线程安全、效率低、ArrayList线程不安全、效率高
+- 扩容 Vector 是扩容2倍，ArrayList是扩容1.5
+- 初始长度10
+
+[TestVector.java](first%2FTestVector.java)
+
+## 新一代并发集合类
+
+-java.util.concurrent包下
 
 
 

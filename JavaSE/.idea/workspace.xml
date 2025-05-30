@@ -5,7 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c995d91-1580-4699-bcff-804fff5ec056" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../FaceQA/FaceQA.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io_file/FileBufferReaderWriterTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io_file/FileBufferStreamTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io_file/FileReaderWriterTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io_file/FileStreamTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/CollectionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/first/TestVector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/third/ConcurrentHashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/third/CopyOnWriteArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/genericity/Genericity.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/genericity/genericity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/DataStreamTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/FileBufferReaderWriterTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/FileBufferReaderWriterTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/FileBufferReaderWriterTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/FileBufferStreamTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/FileBufferStreamTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/FileReaderWriterTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/FileReaderWriterTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/FileStreamTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/FileStreamTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/ObjectStreamTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/io.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/Collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/Collection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/HashMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/HashMapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/LinkedHashMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/LinkedHashMapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/TreeMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/TreeMapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/HashSetAboutStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/HashSetAboutStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/HashSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/HashSetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/LinkedHashSetAboutStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/LinkedHashSetAboutStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/LinkedHashSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/LinkedHashSetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetAboutStudent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetAboutStudent$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetAboutStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetAboutStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collection/Collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/Collection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,21 +62,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "xingyuOrxiaoli"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;xingyuOrxiaoli&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/xingyuOrxiaoli/Java-note.git",
-    "accountId": "1b0b9fa0-1933-4ee0-a349-91d8cc634238"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/xingyuOrxiaoli/Java-note.git&quot;,
+    &quot;accountId&quot;: &quot;1b0b9fa0-1933-4ee0-a349-91d8cc634238&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2xZzXUygpaWtCba843vlXLC0nuC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,46 +84,66 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CollectionsTest.executor": "Run",
+    "Application.DataStreamTest1.executor": "Run",
+    "Application.FileBufferReaderWriterTest1.executor": "Run",
+    "Application.FileBufferReaderWriterTest2.executor": "Run",
+    "Application.FileBufferReaderWriterTest3.executor": "Run",
+    "Application.FileBufferStreamTest1.executor": "Run",
+    "Application.FileBufferStreamTest2.executor": "Run",
+    "Application.FileReaderWriterTest1.executor": "Run",
+    "Application.FileReaderWriterTest2.executor": "Run",
+    "Application.FileStreamTest.executor": "Run",
+    "Application.FileStreamTest1.executor": "Run",
+    "Application.FileStreamTest2.executor": "Run",
     "Application.HashMapTest.executor": "Run",
     "Application.HashSetAboutStudent.executor": "Run",
     "Application.HashSetTest.executor": "Run",
     "Application.LinkedHashMapTest.executor": "Run",
     "Application.LinkedHashSetAboutStudent.executor": "Run",
     "Application.LinkedHashSetTest.executor": "Run",
+    "Application.ObjectStreamTest1.executor": "Run",
+    "Application.TestVector.executor": "Run",
     "Application.TreeMapTest (1).executor": "Run",
     "Application.TreeMapTest.executor": "Run",
     "Application.TreeSetAboutStudent.executor": "Run",
     "Application.TreeSetTest.executor": "Run",
+    "Application.genericity.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/note/xingyuOrxiaoli",
+    "last_opened_file_path": "D:/note/github/Java-note/JavaSE/io_file",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15527344",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\note\github\Java-note\JavaSE\io_file" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io" />
+      <recent name="collection.third" />
       <recent name="collection.map" />
       <recent name="Collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedHashMapTest">
-    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.map.HashMapTest" />
+  <component name="RunManager" selected="Application.ObjectStreamTest1">
+    <configuration name="DataStreamTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.DataStreamTest1" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.map.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedHashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.map.LinkedHashMapTest" />
+    <configuration name="FileBufferReaderWriterTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.FileBufferReaderWriterTest1" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.map.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMapTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.map.TreeMapTest" />
+    <configuration name="FileBufferReaderWriterTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.FileBufferReaderWriterTest2" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.map.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.map.TreeMapTest" />
+    <configuration name="FileBufferReaderWriterTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.FileBufferReaderWriterTest3" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.map.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSetAboutStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.TreeSetAboutStudent" />
+    <configuration name="ObjectStreamTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.ObjectStreamTest1" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.set.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedHashMapTest" />
-        <item itemvalue="Application.TreeMapTest" />
-        <item itemvalue="Application.TreeMapTest (1)" />
-        <item itemvalue="Application.HashMapTest" />
-        <item itemvalue="Application.TreeSetAboutStudent" />
+        <item itemvalue="Application.ObjectStreamTest1" />
+        <item itemvalue="Application.DataStreamTest1" />
+        <item itemvalue="Application.FileBufferReaderWriterTest3" />
+        <item itemvalue="Application.FileBufferReaderWriterTest1" />
+        <item itemvalue="Application.FileBufferReaderWriterTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +229,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748160425683</updated>
-      <workItem from="1748160426838" duration="8386000" />
+      <workItem from="1748160426838" duration="13700000" />
+      <workItem from="1748268044945" duration="2958000" />
+      <workItem from="1748313817765" duration="7566000" />
+      <workItem from="1748519046591" duration="8696000" />
     </task>
     <servers />
   </component>
