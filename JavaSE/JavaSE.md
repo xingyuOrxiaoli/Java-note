@@ -8,7 +8,8 @@
 |:---------------------|:----------------------------------------------:|
 | [集合](src/collection) | [关于Java中各种集合的使用](src/collection/Collection.md) |
 | [泛型](src/genericity) |  [关于Java中泛型的使用](src/genericity/Genericity.md)  |
-| [IO流](src/io)        |  [关于Java中泛型的使用](src/io/io.md)  |
+| [IO流](src/io)        |         [关于Java中IO流的使用](src/io/io.md)          |
+| [多线程](src/thread)    |     [关于Java中多线程的使用](src/thread/thread.md)      |
 
 
 

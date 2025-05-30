@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c995d91-1580-4699-bcff-804fff5ec056" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/PrintStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/StreamToReaderAndWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/TestOtherStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/ObjectStreamTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/ObjectStreamTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/thread.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/io/io.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/io.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +197,7 @@
       <workItem from="1748160426838" duration="13700000" />
       <workItem from="1748268044945" duration="2958000" />
       <workItem from="1748313817765" duration="7566000" />
-      <workItem from="1748519046591" duration="11564000" />
+      <workItem from="1748519046591" duration="11860000" />
     </task>
     <servers />
   </component>
