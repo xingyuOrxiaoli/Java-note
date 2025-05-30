@@ -14,16 +14,8 @@
 
 
 
-## 继承Thread (没有返回值)
-
-- Priority  线程的优先级别
-- Name      线程的名称
-- start()   启动,进入就绪队列，等会带获取CPU
+## 定义
 
 
-[继承Thread使用方法](ThreadTest1.java)
 
-## 实现Runnable接口(没有返回值)
-
-
-[实现Runnable接口使用方法](RunnableTest1.java)
+## 同步
