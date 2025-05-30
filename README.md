@@ -16,7 +16,7 @@
 | [并发编程](Concurrent)       |          [关于并发编程方面的问题](Concurrent%2Fpython.md)          |
 | [中间件](MiddleWare)        |    [关于各种中间的使用以及Java如何调用的记录](MiddleWare%2Fpython.md)     |
 | [开发工具](Tools)            |        [关于Maven、Git等等基础使用的记录](Tools%2Fpython.md)        |
-| [Linux基础命令](LinuxShell)  |        [关于Linux基础命令的使用](LinuxShell%2Fpython.md)         |
+| [操作系统](OS)               |               [关于各种操作系统的安装和使用](OS/OS.md)                |
 | [Project](Project)       |       [关于使用Java实现的项目代码存储问价夹](Project%2Fpython.md)       |
 | [面试题](FaceQA)            |             [各种面试题自己的总结](FaceQA/FaceQA.md)              |
 
