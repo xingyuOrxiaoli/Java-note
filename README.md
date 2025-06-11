@@ -17,6 +17,7 @@
 | [中间件](MiddleWare)        |    [关于各种中间的使用以及Java如何调用的记录](MiddleWare%2Fpython.md)     |
 | [开发工具](Tools)            |         [关于Maven、Git等等基础使用的记录](Tools/Tools.md)          |
 | [操作系统](OS)               |               [关于各种操作系统的安装和使用](OS/OS.md)                |
+| [虚拟机](Jvm)               |              [关于Java虚拟机相关知识的内容](Jvm/Jvm.md)               |
 | [Project](Project)       |       [关于使用Java实现的项目代码存储问价夹](Project%2Fpython.md)       |
 | [面试题](FaceQA)            |             [各种面试题自己的总结](FaceQA/FaceQA.md)              |
 
