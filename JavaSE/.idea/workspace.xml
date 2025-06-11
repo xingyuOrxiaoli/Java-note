@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c995d91-1580-4699-bcff-804fff5ec056" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/RunnableTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/ThreadTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflect/reflect.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/ObjectStreamTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/ObjectStreamTest1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/Student1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/Student1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/Student2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/Student2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/io.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/io.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/thread.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/thread.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,73 +44,112 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CollectionsTest.executor": "Run",
-    "Application.DataStreamTest1.executor": "Run",
-    "Application.FileBufferReaderWriterTest1.executor": "Run",
-    "Application.FileBufferReaderWriterTest2.executor": "Run",
-    "Application.FileBufferReaderWriterTest3.executor": "Run",
-    "Application.FileBufferStreamTest1.executor": "Run",
-    "Application.FileBufferStreamTest2.executor": "Run",
-    "Application.FileReaderWriterTest1.executor": "Run",
-    "Application.FileReaderWriterTest2.executor": "Run",
-    "Application.FileStreamTest.executor": "Run",
-    "Application.FileStreamTest1.executor": "Run",
-    "Application.FileStreamTest2.executor": "Run",
-    "Application.HashMapTest.executor": "Run",
-    "Application.HashSetAboutStudent.executor": "Run",
-    "Application.HashSetTest.executor": "Run",
-    "Application.LinkedHashMapTest.executor": "Run",
-    "Application.LinkedHashSetAboutStudent.executor": "Run",
-    "Application.LinkedHashSetTest.executor": "Run",
-    "Application.ObjectStreamTest1.executor": "Run",
-    "Application.TestVector.executor": "Run",
-    "Application.ThreadTest1.executor": "Run",
-    "Application.TreeMapTest (1).executor": "Run",
-    "Application.TreeMapTest.executor": "Run",
-    "Application.TreeSetAboutStudent.executor": "Run",
-    "Application.TreeSetTest.executor": "Run",
-    "Application.genericity.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/note/github/Java-note/JavaSE/src/thread",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15527344",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Errors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CallableTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectionsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataStreamTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileBufferReaderWriterTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileBufferReaderWriterTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileBufferReaderWriterTest3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileBufferStreamTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileBufferStreamTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileReaderWriterTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileReaderWriterTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileStreamTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileStreamTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileStreamTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForkJoinSumTask.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashSetAboutStudent.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashSetTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InetAddressTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InetSocketAddressTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedHashMapTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedHashSetAboutStudent.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedHashSetTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LockTest3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LockTest3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LockTest_Ticket (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LockTest_Ticket.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginThreadClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginThreadServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectStreamTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumerTest1V1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest1 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest1 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest1 (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest1 (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest2 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TCPClientTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TCPServerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestVector.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPoolExecutorTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPoolExecutorTest2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPoolExecutorTest2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPoolExecutorTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TicketTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.TicketTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeMapTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeMapTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeSetAboutStudent.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeSetTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.URLTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.genericity.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/note/github/Java-note/JavaSE/src/network/tcp/fileUpload&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15527344&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="thread" />
       <recent name="io" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\note\github\Java-note\JavaSE\src\network\tcp\fileUpload" />
+      <recent name="D:\note\github\Java-note\JavaSE\src\network\tcp\loginThread" />
+      <recent name="D:\note\github\Java-note\JavaSE\src\network\tcpThread" />
       <recent name="D:\note\github\Java-note\JavaSE\src\thread" />
       <recent name="D:\note\github\Java-note\JavaSE\io_file" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="network.tcp.fileUpload" />
+      <recent name="network.tcp.fileUploadDownLoad" />
+      <recent name="thread.pool" />
+      <recent name="thread" />
       <recent name="io" />
-      <recent name="collection.third" />
-      <recent name="collection.map" />
-      <recent name="Collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadTest1">
-    <configuration name="DataStreamTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.DataStreamTest1" />
+  <component name="RunManager" selected="Application.TCPClientTest">
+    <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.udp.ClientTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="network.udp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileBufferReaderWriterTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.FileBufferReaderWriterTest1" />
+    <configuration name="LoginThreadClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.loginThread.LoginThreadClient" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="network.tcp.loginThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileBufferReaderWriterTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.FileBufferReaderWriterTest3" />
+    <configuration name="ServerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.udp.ServerTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="network.udp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectStreamTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.ObjectStreamTest1" />
+    <configuration name="TCPClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.fileUpload.TCPClientTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="network.tcp.fileUpload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +196,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.ThreadTest1" />
+    <configuration name="TCPServerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.fileUpload.TCPServerTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="network.tcp.fileUpload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadTest1" />
-        <item itemvalue="Application.ObjectStreamTest1" />
-        <item itemvalue="Application.DataStreamTest1" />
-        <item itemvalue="Application.FileBufferReaderWriterTest3" />
-        <item itemvalue="Application.FileBufferReaderWriterTest1" />
+        <item itemvalue="Application.TCPClientTest" />
+        <item itemvalue="Application.TCPServerTest" />
+        <item itemvalue="Application.ClientTest" />
+        <item itemvalue="Application.ServerTest" />
+        <item itemvalue="Application.LoginThreadClient" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +239,11 @@
       <workItem from="1748268044945" duration="2958000" />
       <workItem from="1748313817765" duration="7566000" />
       <workItem from="1748519046591" duration="14769000" />
+      <workItem from="1748740178058" duration="15930000" />
+      <workItem from="1749110596118" duration="15300000" />
+      <workItem from="1749188037166" duration="13000" />
+      <workItem from="1749540688711" duration="10539000" />
+      <workItem from="1749618038229" duration="267000" />
     </task>
     <servers />
   </component>
