@@ -7,7 +7,7 @@
 |:-------------------------|:-------------------------------------------------------:|
 | [JavaSE记录](JavaSE)       |           [关于Java的基础使用和特性](JavaSE/JavaSE.md)            |
 | [JavaUtils记录](JavaUtils) |        [关于Java的各种工具的使用记录](JavaUtils%2Fpython.md)        |
-| [JavaWeb](JavaWeb)       |   [关于JavaWeb中的JSP、Tomcat等的基础使用](JavaWeb%2Fpython.md)    |
+| [JavaWeb](JavaWeb)       |   [关于JavaWeb中的JSP、Tomcat等的基础使用](JavaWeb%2FJavaWeb.md)    |
 | [功能实现记录](Function)       |          [关于各种常见功能分离的记录](Function%2Fpython.md)          |
 | [Spring等开发框架基础使用](Frame) |        [关于Spring 相关框架的基础使用记录](Frame%2Fpython.md)        |
 | [数据库记录](DBUse)           |         [关于各种数据库的使用记录，如SQL语言等等](DBUse/DBUse.md)         |
