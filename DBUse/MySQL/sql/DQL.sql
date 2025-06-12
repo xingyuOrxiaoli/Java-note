@@ -1,4 +1,6 @@
 
+use note;
+
 select * from test1;
 
 -- distinct  去重 对后面所有列去重
