@@ -5,5 +5,10 @@
     <file url="file://$PROJECT_DIR$/DBUse/MySQL/sql/DDL_FUNCTION.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/DBUse/MySQL/sql/DML.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/DBUse/MySQL/sql/DQL.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/DBUse/MySQL/sql/DQL_moreTables.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/DBUse/MySQL/sql/index.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/DBUse/MySQL/sql/procedure.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/DBUse/MySQL/sql/trainsaction.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/DBUse/MySQL/sql/view.sql" dialect="MySQL" />
   </component>
 </project>
