@@ -182,7 +182,45 @@ hashtable 也叫散列表
 
 ## 新一代并发集合类
 
--java.util.concurrent包下
+
+- 第一代安全集合类
+  - Vector 、 Hashtable
+  - 使用synchronized修饰方法
+  - 效率底下
+- 第二代非安全集合类(主流)
+  - ArrayList 、HashMap
+  - 线程不安全，但是效率高
+  - 如果需要线程安全则使用如下方法解决
+    - Collections.synchronizedList(list)
+    - Collections.synchronizedMap(map)
+    - 底层还是使用synchronized代码块锁
+- 第三代线程安全集合类(波浪式前进，螺旋式上升)
+  - java.util.concurrent包下
+    - ConcurrentHashMap
+    - CopyOnWriteArrayList
+    - CopyOnWriteArraySet
+  - 底层大部分是采用Lock锁(JDK8的ConcurrentHashMap不是使用Lock锁),
+  - 保证线程安全的同时，性能也不低
+
+[ConcurrentHashMapTest.java](third%2FConcurrentHashMapTest.java)
+[CopyOnWriteArrayListTest.java](third%2FCopyOnWriteArrayListTest.java)
+[CopyOnWriteArraySetTest.java](third%2FCopyOnWriteArraySetTest.java)
+
+[第一代第二代集合类案例代码.java](third%2FOtherTest.java)
+
+- ConcurrentHashMap如何保证线程安全的
+  - JDK7 
+    - 分段(segment)锁 + Lock锁
+    - 使用了锁分离技术
+    - 使用多个锁来控制对hash表的不同部分(段segment)进行修改
+    - 多个修改操作发生在不同的段上，因此可以并发运行，为此提高效率
+  - JDK8
+    - volatile + CAS 实现无锁化操作
+    - 底层由 "数组" + 链表 + 红黑树的方式思想(JDK8中HashMap的实现)
+    - 为了做到并发，有添加了很多辅助的类，如
+      - TreeBin
+      - Traverser
+      - 等对象内部类
 
 
 ## 集合源码分析
@@ -194,13 +232,43 @@ hashtable 也叫散列表
 - 无参构造方法中 JDK1.7初始长度为10，JDK1.8中初始长度为0
 - 每次扩容百分之50
 
+[手写ArrayList的代码存放目录](sources%2FarrayList)
 
+[实现的ArrayList代码.java](sources%2FarrayList%2FArrayList.java)
 
+[测试程序.java](sources%2FarrayList%2FTestArrayList.java)
 
 ### 手写单双链表
+[手写单双链表 代码存放位置](sources%2Flinked)
+
+#### 单链表
+
+[SingleNode.java](sources%2Flinked%2FsingleLinked%2FSingleNode.java)
+[实现的单项List代码.java](sources%2Flinked%2FsingleLinked%2FSingleLinkedList.java)
+[测试程序.java](sources%2Flinked%2FsingleLinked%2FTestSingleLinkedList.java)
+
+#### 双链表 LinkedList类的实现
 
 
-### 手写HashMap
+[实现的双向List代码.java](sources%2Flinked%2FdoubleLinked%2FDoubleLinkedList.java)
+
+[测试程序.java](sources%2Flinked%2FdoubleLinked%2FTestDoubleLinkedList.java)
+### 手写简易HashMap
+
+- JDK7 是头插
+- JDK8 是尾插
+
+[手写HashMap基础功能 参考JDK7只有简单的put和get.java](sources%2FhashMap%2FHashMap.java)
+
+[测试程序.java](sources%2FhashMap%2FTestHashMap.java)
+
+### 手写简易的HashSet
+
+- 底层就是一个HashMap 这里不过多介绍
+
+[手写简易的HashSet.java](sources%2FHashSet%2FHashSet.java)
+[测试程序.java](sources%2FHashSet%2FTestHashSet.java)
+
 
 
 
