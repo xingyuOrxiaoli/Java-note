@@ -5,35 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c995d91-1580-4699-bcff-804fff5ec056" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/sources/HashSet/HashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/sources/HashSet/TestHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/sources/IndexOutOfBoundsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/sources/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/sources/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/sources/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/sources/Set.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/sources/arrayList/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/sources/hashMap/HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/sources/hashMap/TestHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/sources/linked/doubleLinked/DoubleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/sources/linked/doubleLinked/DoubleNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/sources/linked/doubleLinked/TestDoubleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/sources/linked/singleLinked/SingleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/sources/linked/singleLinked/SingleNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/sources/linked/singleLinked/TestSingleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/third/CopyOnWriteArraySetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/third/OtherTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflect/code/ClassTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflect/code/StringReflectObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/Collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/Collection.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/CollectionsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/network/network.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/network/network.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/Collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/Collection.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/sources/arrayList/TestArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/sources/arrayList/TestArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/third/ConcurrentHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/third/ConcurrentHashMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/third/CopyOnWriteArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/third/CopyOnWriteArrayListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reflect/reflect.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/reflect/reflect.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,96 +46,96 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CallableTest1.executor": "Run",
-    "Application.ClassTest1.executor": "Run",
-    "Application.ClientTest.executor": "Run",
-    "Application.CollectionsTest.executor": "Run",
-    "Application.ConcurrentHashMapTest.executor": "Run",
-    "Application.CopyOnWriteArrayListTest.executor": "Run",
-    "Application.CopyOnWriteArraySetTest.executor": "Run",
-    "Application.DataStreamTest1.executor": "Run",
-    "Application.FileBufferReaderWriterTest1.executor": "Run",
-    "Application.FileBufferReaderWriterTest2.executor": "Run",
-    "Application.FileBufferReaderWriterTest3.executor": "Run",
-    "Application.FileBufferStreamTest1.executor": "Run",
-    "Application.FileBufferStreamTest2.executor": "Run",
-    "Application.FileReaderWriterTest1.executor": "Run",
-    "Application.FileReaderWriterTest2.executor": "Run",
-    "Application.FileStreamTest.executor": "Run",
-    "Application.FileStreamTest1.executor": "Run",
-    "Application.FileStreamTest2.executor": "Run",
-    "Application.ForkJoinSumTask.executor": "Run",
-    "Application.HashMapTest.executor": "Run",
-    "Application.HashSetAboutStudent.executor": "Run",
-    "Application.HashSetTest.executor": "Run",
-    "Application.InetAddressTest.executor": "Run",
-    "Application.InetSocketAddressTest.executor": "Run",
-    "Application.LinkedHashMapTest.executor": "Run",
-    "Application.LinkedHashSetAboutStudent.executor": "Run",
-    "Application.LinkedHashSetTest.executor": "Run",
-    "Application.LockTest3 (1).executor": "Run",
-    "Application.LockTest3.executor": "Run",
-    "Application.LockTest_Ticket (1).executor": "Run",
-    "Application.LockTest_Ticket.executor": "Run",
-    "Application.LoginClient.executor": "Run",
-    "Application.LoginServer.executor": "Run",
-    "Application.LoginThreadClient.executor": "Run",
-    "Application.LoginThreadServer.executor": "Run",
-    "Application.ObjectStreamTest1.executor": "Run",
-    "Application.OtherTest.executor": "Run",
-    "Application.ProducerConsumerTest1V1.executor": "Run",
-    "Application.ServerTest.executor": "Run",
-    "Application.StringReflectObject.executor": "Run",
-    "Application.SynchronizedTest1 (1).executor": "Run",
-    "Application.SynchronizedTest1 (2).executor": "Run",
-    "Application.SynchronizedTest1 (3).executor": "Run",
-    "Application.SynchronizedTest1 (4).executor": "Run",
-    "Application.SynchronizedTest1 (5).executor": "Run",
-    "Application.SynchronizedTest1.executor": "Run",
-    "Application.SynchronizedTest2 (1).executor": "Run",
-    "Application.SynchronizedTest2 (2).executor": "Run",
-    "Application.SynchronizedTest2 (3).executor": "Run",
-    "Application.SynchronizedTest2.executor": "Run",
-    "Application.TCPClientTest.executor": "Run",
-    "Application.TCPServerTest.executor": "Run",
-    "Application.TestArrayList.executor": "Run",
-    "Application.TestDoubleLinkedList.executor": "Run",
-    "Application.TestHashMap.executor": "Run",
-    "Application.TestHashSet.executor": "Run",
-    "Application.TestSingleLinkedList.executor": "Run",
-    "Application.TestVector.executor": "Run",
-    "Application.ThreadPoolExecutorTest1.executor": "Run",
-    "Application.ThreadPoolExecutorTest2 (1).executor": "Run",
-    "Application.ThreadPoolExecutorTest2 (2).executor": "Run",
-    "Application.ThreadPoolExecutorTest2.executor": "Run",
-    "Application.ThreadTest1.executor": "Run",
-    "Application.TicketTest (1).executor": "Run",
-    "Application.TicketTest.executor": "Run",
-    "Application.TreeMapTest (1).executor": "Run",
-    "Application.TreeMapTest.executor": "Run",
-    "Application.TreeSetAboutStudent.executor": "Run",
-    "Application.TreeSetTest.executor": "Run",
-    "Application.URLTest.executor": "Run",
-    "Application.genericity.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/note/github/Java-note/JavaSE/src/network/tcp/fileUpload",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15527344",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Errors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CallableTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectionsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConcurrentHashMapTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CopyOnWriteArrayListTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CopyOnWriteArraySetTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataStreamTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileBufferReaderWriterTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileBufferReaderWriterTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileBufferReaderWriterTest3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileBufferStreamTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileBufferStreamTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileReaderWriterTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileReaderWriterTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileStreamTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileStreamTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileStreamTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForkJoinSumTask.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashSetAboutStudent.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashSetTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InetAddressTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InetSocketAddressTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedHashMapTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedHashSetAboutStudent.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedHashSetTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LockTest3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LockTest3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LockTest_Ticket (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LockTest_Ticket.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginThreadClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginThreadServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectStreamTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OtherTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumerTest1V1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringReflectObject.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest1 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest1 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest1 (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest1 (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest2 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TCPClientTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TCPServerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestDoubleLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestHashMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestHashSet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSingleLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestVector.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPoolExecutorTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPoolExecutorTest2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPoolExecutorTest2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPoolExecutorTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TicketTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.TicketTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeMapTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeMapTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeSetAboutStudent.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeSetTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.URLTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.genericity.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/note/github/Java-note/JavaSE/src/network/tcp/fileUpload&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15527344&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="collection.sources.arrayList" />
@@ -290,6 +262,9 @@
       <workItem from="1749797886598" duration="4722000" />
       <workItem from="1749880487068" duration="29000" />
       <workItem from="1750835897061" duration="10377000" />
+      <workItem from="1750938422528" duration="36000" />
+      <workItem from="1750996837162" duration="26000" />
+      <workItem from="1751085319987" duration="110000" />
     </task>
     <servers />
   </component>

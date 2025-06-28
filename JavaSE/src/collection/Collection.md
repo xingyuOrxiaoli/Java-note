@@ -209,18 +209,38 @@ hashtable 也叫散列表
 [第一代第二代集合类案例代码.java](third%2FOtherTest.java)
 
 - ConcurrentHashMap如何保证线程安全的
-  - JDK7 
+  - JDK7   锁一段map表
     - 分段(segment)锁 + Lock锁
     - 使用了锁分离技术
     - 使用多个锁来控制对hash表的不同部分(段segment)进行修改
     - 多个修改操作发生在不同的段上，因此可以并发运行，为此提高效率
-  - JDK8
+  - JDK8  锁同一个hash下的元素
     - volatile + CAS 实现无锁化操作
     - 底层由 "数组" + 链表 + 红黑树的方式思想(JDK8中HashMap的实现)
     - 为了做到并发，有添加了很多辅助的类，如
       - TreeBin
       - Traverser
       - 等对象内部类
+- CopyOnWriteArrayList : CopyOnWrite + Lock锁
+  - 对于set()、add()、remove()等方法使用ReentrantLock的lock和unlock来实现加锁和解锁
+  - 读操作不需要加锁(之前集合安全类，即使读操作也要加锁，保证数据的实时一致性)。
+  - CopyOnWrite原理:写时复制
+    - 往一个容器添加元素的时候，不直接往当前容器添加，而是先将之前的容器进行copy一个新的容器，之后往新的容器添加元素
+    - 添加之后，再将原容器的引用改成新容器的引用。
+    - 好处
+      - 可以对CopyOnWrite容器进行并发的读，而不需要加锁，因为当前容器不会添加任何元素(因为添加新的元素的操作在copy新的容器里面进行操作)
+      - 上述可得：CopyOnWrite容器也是一种读写分离的思想，读和写不同的容器
+      - 为此对于读操作远远多雨写操作的场景比较适合
+    - CopyOnWrite容器只能保证数据的最终一致性，不能保证数据实时一致性。(因为写入和读入的容器不一样，同步的时候又时间差)
+- CopyOnWriteArraySet ： 底层是一个CopyOnWriteArrayList
+  - set 唯一性 add操作添加一个判断是否唯一的判断，如果存在则不再添加元素，如果不存在则添加到底层中的CopyOnWriteArrayList容器中
+
+
+
+
+
+
+
 
 
 ## 集合源码分析
