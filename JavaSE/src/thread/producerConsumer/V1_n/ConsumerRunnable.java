@@ -1,6 +1,4 @@
-package thread.producerConsumer;
-
-import com.oracle.jrockit.jfr.Producer;
+package thread.producerConsumer.V1_n;
 
 public class ConsumerRunnable implements Runnable{
     private Product product;

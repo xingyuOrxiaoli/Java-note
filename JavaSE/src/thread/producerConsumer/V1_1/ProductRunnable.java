@@ -1,4 +1,4 @@
-package thread.producerConsumer;
+package thread.producerConsumer.V1_1;
 
 public class ProductRunnable implements Runnable{
     private Product product;

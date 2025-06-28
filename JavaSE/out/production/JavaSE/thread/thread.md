@@ -112,13 +112,21 @@
 
 #### 生产者消费者练习1 1 v 1
 
-[1 v 1的代码](producerConsumer%2FProducerConsumerTest1V1.java)
+[一个生成一个消费者案例代码存放目录](producerConsumer%2FV1_1)
+
+[一个生产者一个消费者的测试程序](producerConsumer/V1_1/ProducerConsumerTest1V1.java)
+
+
+#### 生产者消费者练习2 n v n synchronized 
+[生产者消费者练习 n个消费者和生产者，最大存储为max个](producerConsumer%2FVn_n_synchronized)
+
+[测试程序.java](producerConsumer%2FVn_n_synchronized%2FProducerConsumerTestnVn.java)
+
+#### 生产者消费者练习3 n v n lock
 
 #### 生产者消费者练习1 1 v n
 
 #### 生产者消费者练习1 n v 1
-
-#### 生产者消费者练习1 n v n
 
 #### 注意细节
 

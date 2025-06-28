@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c995d91-1580-4699-bcff-804fff5ec056" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/V1_n/ConsumerRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/V1_n/ProducerConsumerTest1Vn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/V1_n/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/V1_n/ProductRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_lock/ConsumerRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_lock/ProducerConsumerTestnVn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_lock/ProductFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_lock/ProductRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_synchronized/ConsumerRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_synchronized/ProducerConsumerTestnVn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_synchronized/ProductFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_synchronized/ProductRunnable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/producerConsumer/ConsumerRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/producerConsumer/V1_1/ConsumerRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/producerConsumer/ProducerConsumerTest1V1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/producerConsumer/V1_1/ProducerConsumerTest1V1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/producerConsumer/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/producerConsumer/V1_1/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/producerConsumer/ProductRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/producerConsumer/V1_1/ProductRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/thread.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/thread.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,96 +63,98 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CallableTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClassTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClientTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConcurrentHashMapTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CopyOnWriteArrayListTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CopyOnWriteArraySetTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataStreamTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileBufferReaderWriterTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileBufferReaderWriterTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileBufferReaderWriterTest3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileBufferStreamTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileBufferStreamTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileReaderWriterTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileReaderWriterTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileStreamTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileStreamTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileStreamTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForkJoinSumTask.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashMapTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashSetAboutStudent.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashSetTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InetAddressTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InetSocketAddressTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedHashMapTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedHashSetAboutStudent.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedHashSetTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LockTest3 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.LockTest3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LockTest_Ticket (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.LockTest_Ticket.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoginClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoginServer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoginThreadClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoginThreadServer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectStreamTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OtherTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumerTest1V1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ServerTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringReflectObject.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest1 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest1 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest1 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest1 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest1 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest2 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest2 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TCPClientTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TCPServerTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestDoubleLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestHashMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestHashSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestSingleLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestVector.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPoolExecutorTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPoolExecutorTest2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPoolExecutorTest2 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPoolExecutorTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicketTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicketTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeMapTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeMapTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeSetAboutStudent.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeSetTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.URLTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.genericity.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/note/github/Java-note/JavaSE/src/network/tcp/fileUpload&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15527344&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CallableTest1.executor": "Run",
+    "Application.ClassTest1.executor": "Run",
+    "Application.ClientTest.executor": "Run",
+    "Application.CollectionsTest.executor": "Run",
+    "Application.ConcurrentHashMapTest.executor": "Run",
+    "Application.CopyOnWriteArrayListTest.executor": "Run",
+    "Application.CopyOnWriteArraySetTest.executor": "Run",
+    "Application.DataStreamTest1.executor": "Run",
+    "Application.FileBufferReaderWriterTest1.executor": "Run",
+    "Application.FileBufferReaderWriterTest2.executor": "Run",
+    "Application.FileBufferReaderWriterTest3.executor": "Run",
+    "Application.FileBufferStreamTest1.executor": "Run",
+    "Application.FileBufferStreamTest2.executor": "Run",
+    "Application.FileReaderWriterTest1.executor": "Run",
+    "Application.FileReaderWriterTest2.executor": "Run",
+    "Application.FileStreamTest.executor": "Run",
+    "Application.FileStreamTest1.executor": "Run",
+    "Application.FileStreamTest2.executor": "Run",
+    "Application.ForkJoinSumTask.executor": "Run",
+    "Application.HashMapTest.executor": "Run",
+    "Application.HashSetAboutStudent.executor": "Run",
+    "Application.HashSetTest.executor": "Run",
+    "Application.InetAddressTest.executor": "Run",
+    "Application.InetSocketAddressTest.executor": "Run",
+    "Application.LinkedHashMapTest.executor": "Run",
+    "Application.LinkedHashSetAboutStudent.executor": "Run",
+    "Application.LinkedHashSetTest.executor": "Run",
+    "Application.LockTest3 (1).executor": "Run",
+    "Application.LockTest3.executor": "Run",
+    "Application.LockTest_Ticket (1).executor": "Run",
+    "Application.LockTest_Ticket.executor": "Run",
+    "Application.LoginClient.executor": "Run",
+    "Application.LoginServer.executor": "Run",
+    "Application.LoginThreadClient.executor": "Run",
+    "Application.LoginThreadServer.executor": "Run",
+    "Application.ObjectStreamTest1.executor": "Run",
+    "Application.OtherTest.executor": "Run",
+    "Application.ProducerConsumerTest1V1.executor": "Run",
+    "Application.ProducerConsumerTestnVn.executor": "Run",
+    "Application.ServerTest.executor": "Run",
+    "Application.StringReflectObject.executor": "Run",
+    "Application.SynchronizedTest1 (1).executor": "Run",
+    "Application.SynchronizedTest1 (2).executor": "Run",
+    "Application.SynchronizedTest1 (3).executor": "Run",
+    "Application.SynchronizedTest1 (4).executor": "Run",
+    "Application.SynchronizedTest1 (5).executor": "Run",
+    "Application.SynchronizedTest1.executor": "Run",
+    "Application.SynchronizedTest2 (1).executor": "Run",
+    "Application.SynchronizedTest2 (2).executor": "Run",
+    "Application.SynchronizedTest2 (3).executor": "Run",
+    "Application.SynchronizedTest2.executor": "Run",
+    "Application.TCPClientTest.executor": "Run",
+    "Application.TCPServerTest.executor": "Run",
+    "Application.TestArrayList.executor": "Run",
+    "Application.TestDoubleLinkedList.executor": "Run",
+    "Application.TestHashMap.executor": "Run",
+    "Application.TestHashSet.executor": "Run",
+    "Application.TestSingleLinkedList.executor": "Run",
+    "Application.TestVector.executor": "Run",
+    "Application.ThreadPoolExecutorTest1.executor": "Run",
+    "Application.ThreadPoolExecutorTest2 (1).executor": "Run",
+    "Application.ThreadPoolExecutorTest2 (2).executor": "Run",
+    "Application.ThreadPoolExecutorTest2.executor": "Run",
+    "Application.ThreadTest1.executor": "Run",
+    "Application.TicketTest (1).executor": "Run",
+    "Application.TicketTest.executor": "Run",
+    "Application.TreeMapTest (1).executor": "Run",
+    "Application.TreeMapTest.executor": "Run",
+    "Application.TreeSetAboutStudent.executor": "Run",
+    "Application.TreeSetTest.executor": "Run",
+    "Application.URLTest.executor": "Run",
+    "Application.genericity.executor": "Run",
+    "Application.thread.producerConsumer.Vn_n_lock.ProducerConsumerTestnVn.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/note/github/Java-note/JavaSE/src/thread/producerConsumer/Vn_n_lock",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15527344",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="collection.sources.arrayList" />
@@ -143,11 +162,11 @@
       <recent name="io" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\note\github\Java-note\JavaSE\src\thread\producerConsumer\Vn_n_lock" />
+      <recent name="D:\note\github\Java-note\JavaSE\src\thread\producerConsumer" />
+      <recent name="D:\note\github\Java-note\JavaSE\src\thread\producerConsumer\V1_n" />
       <recent name="D:\note\github\Java-note\JavaSE\src\network\tcp\fileUpload" />
       <recent name="D:\note\github\Java-note\JavaSE\src\network\tcp\loginThread" />
-      <recent name="D:\note\github\Java-note\JavaSE\src\network\tcpThread" />
-      <recent name="D:\note\github\Java-note\JavaSE\src\thread" />
-      <recent name="D:\note\github\Java-note\JavaSE\io_file" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="collection.sources.linked.singleLinked" />
@@ -157,20 +176,7 @@
       <recent name="thread.pool" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OtherTest">
-    <configuration name="ConcurrentHashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.third.ConcurrentHashMapTest" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.third.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.thread.producerConsumer.Vn_n_lock.ProducerConsumerTestnVn">
     <configuration name="CopyOnWriteArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.third.CopyOnWriteArrayListTest" />
       <module name="JavaSE" />
@@ -210,12 +216,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.sources.HashSet.TestHashSet" />
+    <configuration name="ProducerConsumerTestnVn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.producerConsumer.Vn_n_synchronized.ProducerConsumerTestnVn" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.sources.HashSet.*" />
+          <option name="PATTERN" value="thread.producerConsumer.Vn_n_synchronized.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="thread.producerConsumer.Vn_n_lock.ProducerConsumerTestnVn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.producerConsumer.Vn_n_lock.ProducerConsumerTestnVn" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.producerConsumer.Vn_n_lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.thread.producerConsumer.Vn_n_lock.ProducerConsumerTestnVn" />
+        <item itemvalue="Application.ProducerConsumerTestnVn" />
         <item itemvalue="Application.OtherTest" />
         <item itemvalue="Application.CopyOnWriteArraySetTest" />
         <item itemvalue="Application.CopyOnWriteArrayListTest" />
-        <item itemvalue="Application.ConcurrentHashMapTest" />
-        <item itemvalue="Application.TestHashSet" />
       </list>
     </recent_temporary>
   </component>
@@ -265,6 +284,9 @@
       <workItem from="1750938422528" duration="36000" />
       <workItem from="1750996837162" duration="26000" />
       <workItem from="1751085319987" duration="110000" />
+      <workItem from="1751089232535" duration="4579000" />
+      <workItem from="1751096825678" duration="791000" />
+      <workItem from="1751099765130" duration="1694000" />
     </task>
     <servers />
   </component>

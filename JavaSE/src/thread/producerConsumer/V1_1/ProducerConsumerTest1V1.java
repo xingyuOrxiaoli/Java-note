@@ -1,6 +1,4 @@
-package thread.producerConsumer;
-
-import java.util.function.Consumer;
+package thread.producerConsumer.V1_1;
 
 public class ProducerConsumerTest1V1 {
     public static void main(String[] args) {
