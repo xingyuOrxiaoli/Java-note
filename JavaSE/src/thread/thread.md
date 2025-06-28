@@ -212,10 +212,55 @@
 
 
 
+## Lock锁相关API
+
+[Lock锁相关API 存放代码的包](lockAPI)
+
+[Lock相关API中的五个方法.java](lockAPI%2FLockAPI.java)
+
+[使用读写锁实现，写写独立，读读一起执行.java](lockAPI%2FTestReentrantReadWriteLock.java)
+
+## 阻塞队列 BlockingQueue
 
 
+[使用BlockingQueue解决多个消费者多个生产者并且有生产限制这个问题案例代码存放的包](blackingQueue)
 
 
+|    |   抛出异常    |   特殊值    |   阻塞   |         超时         |
+|:--:|:---------:|:--------:|:------:|:------------------:|
+| 插入 |  add(e)   | offer(e) | put(e) | offer(e,time,unit) |
+| 移除 | remove()  |  poll()  | take() |    poll(e,time)    |
+| 检查 | element() |  peek()  |  不可用   |        不可用         |
 
+- JDK5提供 java.util.concurrent包下的
+- add() 底层是调用offer()方法返回值进行if判断
+- offer() 底层 使用的是 ReentrantLock
+- put() 阻塞使用 await() 
+
+![img.png](images/img.png)
+
+
+![img_1.png](images/img_1.png)
+
+
+- 常用的BlockQueue
+  - ArrayBlockQueue 有边界的阻塞队列
+    - 容量大小一旦指定就不可改变
+    - 先进先出的方法存储数据
+    - 支持 等待的生产者线程和使用者线程进行排序的可选公平策略，默认是不保证这种策略的，设置fairness为true会降低吞吐量
+  - LinkedBlockQueue
+    - 初始化指定一个大小 ，他就有边界
+    - 没有指定大小，他就是无边界，默认采用Integer的最大值，
+    - 内部实现是一个链表
+    - 策略和ArrayBlockQueue一样
+
+
+## volatile关键字
+
+[可见性.java](volatile_guanJianZi%2FTestVolatile.java)
+
+一个线程修改，其他线程就会发现修改
+
+- java中
 
 

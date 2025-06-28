@@ -46,6 +46,7 @@
 - compareTo方法每次添加元素进行调用，如果添加第一个元素是自己和自己比。
 
 - 也可以定义外部外部比较类，优先使用外部比较类
+
 [TreeSet存储自定义类相关代码](set/TreeSetAboutStudent.java)
 
 #### TreeSet源码简单介绍

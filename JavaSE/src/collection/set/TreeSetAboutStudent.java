@@ -1,6 +1,7 @@
 package collection.set;
 
 import java.util.Comparator;
+import java.util.PriorityQueue;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -13,6 +14,7 @@ public class TreeSetAboutStudent {
         Student student3 = new Student(3, "小李3号", 20, 82);
         Student student4 = new Student(4, "小李4号", 21, 83);
         Student student5 = new Student(1, "小李1号", 18, 80);
+
 
         set.add(student1);
         set.add(student2);

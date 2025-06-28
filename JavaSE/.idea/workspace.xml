@@ -5,23 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c995d91-1580-4699-bcff-804fff5ec056" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/V1_n/ConsumerRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/V1_n/ProducerConsumerTest1Vn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/V1_n/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/V1_n/ProductRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_lock/ConsumerRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_lock/ProducerConsumerTestnVn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_lock/ProductFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_lock/ProductRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_synchronized/ConsumerRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_synchronized/ProducerConsumerTestnVn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_synchronized/ProductFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_synchronized/ProductRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/blackingQueue/ConsumerRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/blackingQueue/ProducerConsumerTestnVnBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/blackingQueue/ProductFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/blackingQueue/ProductRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/images/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/lockAPI/LockAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/lockAPI/TestReentrantReadWriteLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/volatile_guanJianZi/TestVolatile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/producerConsumer/ConsumerRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/producerConsumer/V1_1/ConsumerRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/producerConsumer/ProducerConsumerTest1V1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/producerConsumer/V1_1/ProducerConsumerTest1V1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/producerConsumer/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/producerConsumer/V1_1/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/producerConsumer/ProductRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/producerConsumer/V1_1/ProductRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/Collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/Collection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetAboutStudent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetAboutStudent$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetAboutStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetAboutStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_lock/ConsumerRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_lock/ConsumerRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_lock/ProductRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_lock/ProductRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/thread.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/thread.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/Collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/Collection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/set/TreeSetAboutStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/TreeSetAboutStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_lock/ConsumerRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_lock/ConsumerRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_lock/ProductRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/producerConsumer/Vn_n_lock/ProductRunnable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thread/thread.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/thread.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +95,7 @@
     "Application.LinkedHashMapTest.executor": "Run",
     "Application.LinkedHashSetAboutStudent.executor": "Run",
     "Application.LinkedHashSetTest.executor": "Run",
+    "Application.LockAPI.executor": "Run",
     "Application.LockTest3 (1).executor": "Run",
     "Application.LockTest3.executor": "Run",
     "Application.LockTest_Ticket (1).executor": "Run",
@@ -104,6 +108,7 @@
     "Application.OtherTest.executor": "Run",
     "Application.ProducerConsumerTest1V1.executor": "Run",
     "Application.ProducerConsumerTestnVn.executor": "Run",
+    "Application.ProducerConsumerTestnVnBlockingQueue.executor": "Run",
     "Application.ServerTest.executor": "Run",
     "Application.StringReflectObject.executor": "Run",
     "Application.SynchronizedTest1 (1).executor": "Run",
@@ -122,8 +127,10 @@
     "Application.TestDoubleLinkedList.executor": "Run",
     "Application.TestHashMap.executor": "Run",
     "Application.TestHashSet.executor": "Run",
+    "Application.TestReentrantReadWriteLock.executor": "Run",
     "Application.TestSingleLinkedList.executor": "Run",
     "Application.TestVector.executor": "Run",
+    "Application.TestVolatile.executor": "Run",
     "Application.ThreadPoolExecutorTest1.executor": "Run",
     "Application.ThreadPoolExecutorTest2 (1).executor": "Run",
     "Application.ThreadPoolExecutorTest2 (2).executor": "Run",
@@ -142,7 +149,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/note/github/Java-note/JavaSE/src/thread/producerConsumer/Vn_n_lock",
+    "last_opened_file_path": "D:/note/github/Java-note/JavaSE/src/thread/blackingQueue",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -162,27 +169,30 @@
       <recent name="io" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\note\github\Java-note\JavaSE\src\thread\blackingQueue" />
       <recent name="D:\note\github\Java-note\JavaSE\src\thread\producerConsumer\Vn_n_lock" />
       <recent name="D:\note\github\Java-note\JavaSE\src\thread\producerConsumer" />
       <recent name="D:\note\github\Java-note\JavaSE\src\thread\producerConsumer\V1_n" />
       <recent name="D:\note\github\Java-note\JavaSE\src\network\tcp\fileUpload" />
-      <recent name="D:\note\github\Java-note\JavaSE\src\network\tcp\loginThread" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\note\github\Java-note\JavaSE\src\thread\images" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.lockAPI" />
       <recent name="collection.sources.linked.singleLinked" />
       <recent name="collection.sources.linked" />
       <recent name="network.tcp.fileUpload" />
       <recent name="network.tcp.fileUploadDownLoad" />
-      <recent name="thread.pool" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.thread.producerConsumer.Vn_n_lock.ProducerConsumerTestnVn">
-    <configuration name="CopyOnWriteArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.third.CopyOnWriteArrayListTest" />
+  <component name="RunManager" selected="Application.TestVolatile (2)">
+    <configuration name="ProducerConsumerTestnVnBlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.blackingQueue.ProducerConsumerTestnVnBlockingQueue" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.third.*" />
+          <option name="PATTERN" value="thread.blackingQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,12 +200,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyOnWriteArraySetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.third.CopyOnWriteArraySetTest" />
+    <configuration name="TestReentrantReadWriteLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.lockAPI.TestReentrantReadWriteLock" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.third.*" />
+          <option name="PATTERN" value="thread.lockAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,12 +213,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OtherTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.third.OtherTest" />
+    <configuration name="TestVolatile (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.volatile_guanJianZi.TestVolatile" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.third.*" />
+          <option name="PATTERN" value="thread.volatile_guanJianZi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,12 +226,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerConsumerTestnVn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.producerConsumer.Vn_n_synchronized.ProducerConsumerTestnVn" />
+    <configuration name="TestVolatile (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.volatile_guanJianZi.TestVolatile" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.producerConsumer.Vn_n_synchronized.*" />
+          <option name="PATTERN" value="thread.volatile_guanJianZi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,12 +239,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="thread.producerConsumer.Vn_n_lock.ProducerConsumerTestnVn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.producerConsumer.Vn_n_lock.ProducerConsumerTestnVn" />
+    <configuration name="TestVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.volatile_guanJianZi.TestVolatile" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.producerConsumer.Vn_n_lock.*" />
+          <option name="PATTERN" value="thread.volatile_guanJianZi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.thread.producerConsumer.Vn_n_lock.ProducerConsumerTestnVn" />
-        <item itemvalue="Application.ProducerConsumerTestnVn" />
-        <item itemvalue="Application.OtherTest" />
-        <item itemvalue="Application.CopyOnWriteArraySetTest" />
-        <item itemvalue="Application.CopyOnWriteArrayListTest" />
+        <item itemvalue="Application.TestVolatile (2)" />
+        <item itemvalue="Application.TestVolatile (1)" />
+        <item itemvalue="Application.TestVolatile" />
+        <item itemvalue="Application.ProducerConsumerTestnVnBlockingQueue" />
+        <item itemvalue="Application.TestReentrantReadWriteLock" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +296,7 @@
       <workItem from="1751085319987" duration="110000" />
       <workItem from="1751089232535" duration="4579000" />
       <workItem from="1751096825678" duration="791000" />
-      <workItem from="1751099765130" duration="1694000" />
+      <workItem from="1751099765130" duration="9344000" />
     </task>
     <servers />
   </component>

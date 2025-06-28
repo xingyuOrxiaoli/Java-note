@@ -1,4 +1,6 @@
-package thread.producerConsumer.Vn_n_lock;
+package thread.blackingQueue;
+
+import thread.producerConsumer.Vn_n_lock.ProductFactory;
 
 public class ProductRunnable implements Runnable{
 
@@ -15,7 +17,7 @@ public class ProductRunnable implements Runnable{
         int index = 0 ;
         while (true){
             try {
-                Thread.sleep(10);
+                Thread.sleep(100);
                 productFactory.produce("商品" +index);
                 index ++;
             } catch (InterruptedException e) {

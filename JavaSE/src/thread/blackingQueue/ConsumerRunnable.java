@@ -1,4 +1,6 @@
-package thread.producerConsumer.Vn_n_lock;
+package thread.blackingQueue;
+
+import thread.producerConsumer.Vn_n_lock.ProductFactory;
 
 public class ConsumerRunnable implements Runnable{
 
@@ -14,7 +16,7 @@ public class ConsumerRunnable implements Runnable{
     public void run() {
         while (true){
             try {
-                Thread.sleep(10);
+                Thread.sleep(1);
                 productFactory.consume();
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
