@@ -171,8 +171,15 @@ DML和DDL的不同
 ## 用户管理
 
 - 用户管理
+
+[用户的创建，用户的信息的修改 .sql](sql%2FuserMessageManager.sql)
+
 - 权限管理
+
+[如何查询、添加、撤销用户的权限.sql](sql%2FuserPowerManager.sql)
+
 - 角色管理
+[创建角色，给用户分配角色、激活角色、撤销角色和删除角色.sql](sql%2FuserRoleManager.sql)
 
 
 

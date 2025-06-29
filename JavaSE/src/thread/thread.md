@@ -191,6 +191,8 @@
 
 ## ForkJoin框架
 
+[基础使用用法代码案例.java](forkJoin%2FForkJoinSumTask.java)[](forkJoin)
+
 主要类
 
 - ForkJoinTask
@@ -202,6 +204,9 @@
 - ForkJoinWorkerThread
   - ForkJoinPool线程池中的一个执行任务的线程
 
+
+
+
 ### 求和案例
 
 
@@ -209,6 +214,21 @@
 
 
 ## Lock和synchronized对比
+
+- synchronized
+  - Java语言内置的特性
+  - 一个代码块被synchronized修饰了，当一个线程获取队以哦那个的锁，其他线程只能等待
+  - 释放锁的2种情况
+    - 1 ： 获得锁的线程结束了
+    - 2 ： 获得锁的线程指向发生了异常,JVM会让线程自动释放锁
+
+- Lock
+  - 是JDK层面的，是一个类
+  - 需要手动释放锁
+  - 有一个同步队列，多个等待队列
+  - 可以让等待锁的线程相应中断，synchronized只能一直等待
+  - 可以知道有没有成功获取锁
+  
 
 
 
@@ -239,7 +259,6 @@
 
 ![img.png](images/img.png)
 
-
 ![img_1.png](images/img_1.png)
 
 
@@ -259,8 +278,24 @@
 
 [可见性.java](volatile_guanJianZi%2FTestVolatile.java)
 
-一个线程修改，其他线程就会发现修改
+- **可见性**，是指线程之间的可见性，一个先昵称修改的状态对另一个线程是可见的。
+  - volatile 修饰的变量不允许线程内部缓存和重排序，（不可直接修改内存）
+  - volatile 只能让被修饰的内容就有可见性，但不能保证原子性,如a++ 依然是一个非原子操作，（涉及线程安全的问题）
+  - java中 volatile、synchronized、和final实现可见性
+- **原子性**
+  - synchronized 和lock、unlock中的操作保证原子性
+- **有序性**
+  - volatile 和synchronized两个关键字保证线程之间操作的有序性
+  - synchronized ： 一个变量再同一时刻只允许一个线程对其进行lock操作 -> 这条规则决定了同一个对象锁的两个同步块只能串行执行
+  - volatile 原理：
+    - Java提供的一种稍弱的同步机制，即volatile变量，用来确保变量的更新操作通知到其他线程。
+    - 编译器与运行时会注意到修饰的变量是共享的，因此不会讲该变量上的操作与其他内存操作一起重排序
+    - volatile变量不会被缓存在寄存器或者其他处理器不可见的地方，因此在读取volatile类型的变量总会返回写入的值
+    - 在访问volatile变量时，不会执行加锁操作，因此也不会使执行线程阻塞，因此volatile变量是一种比synchronized关键字更轻量级的同步机制
 
-- java中
+面对volatile变量，JVM保证和了每次读变量都从内存中读，跳过CPU Cache这一步
+
+- volatile可以保证可见性和有序性但是不能保证原子性
+- 读的时间和普通变量差不多，但是写的可能慢一些 
 
 
