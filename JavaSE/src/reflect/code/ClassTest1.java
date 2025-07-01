@@ -11,26 +11,25 @@ public final class ClassTest1 {
     public String name;
 
 
+    /**
+     * 获取Class的方式
+     * @param args
+     * @throws ClassNotFoundException
+     * @throws NoSuchFieldException
+     */
     public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException {
-        Class<?> clazz = Class.forName("reflect.code.ClassTest1");
 
-        System.out.println(clazz.getName());
-        System.out.println(clazz.getSimpleName());
-        System.out.println(clazz.getSuperclass());
-        System.out.println(Arrays.toString(clazz.getInterfaces()));
+        Class<ClassTest1> clazz1 = ClassTest1.class;
+        Class<?> clazz2 = Class.forName("reflect.code.ClassTest1");
+        Class<? extends ClassTest1> clazz3 = new ClassTest1().getClass();
 
-        System.out.println(clazz.getModifiers());
-        System.out.println(Modifier.toString(clazz.getModifiers()));
 
-        // 成员变量
-        Field[] fields = clazz.getFields(); // 只能获取public上的  可以获取上级类的
-        System.out.println(Arrays.toString(fields));
+        Class<Integer> intClazz = int.class;
+        Class<int[]> arrClazz = int[].class;
 
-        fields = clazz.getDeclaredFields(); // 获取所有的属性 但是不包括上级类的属性
-        System.out.println(Arrays.toString(fields));
+        Class<Integer> integerClass = Integer.TYPE; // Integer包装的int的类对象
 
-        Field field = clazz.getField("id"); // 只能获取public上的  可以获取上级类的
-        System.out.println(field);
+
 
 
     }

@@ -5,8 +5,183 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c995d91-1580-4699-bcff-804fff5ec056" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/JDBCNote.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/src/main/java/com/lxy/PreparedStatement/TestDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/src/main/java/com/lxy/PreparedStatement/TestInert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/src/main/java/com/lxy/PreparedStatement/TestSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/src/main/java/com/lxy/PreparedStatement/TestTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/src/main/java/com/lxy/PreparedStatement/TestUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/src/main/java/com/lxy/Statement/TestDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/src/main/java/com/lxy/Statement/TestInert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/src/main/java/com/lxy/Statement/TestSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/src/main/java/com/lxy/Statement/TestTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBFrame/JDBCNote/src/main/java/com/lxy/Statement/TestUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/MyAnnotation1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/annotation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdkVersion/jdk10/VarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdkVersion/jdk11/TestZCG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdkVersion/jdk12/JDK12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdkVersion/jdk8/LamdaTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdkVersion/jdk8/NewDateTimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdkVersion/jdk8/StreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdkVersion/jdk9/InterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdkVersion/jdkVersion.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/properties/GainDataProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/properties/file1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/properties/file2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/properties/properties.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflect/FieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflect/MethodTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflect/generic/GenericTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflect/generic/GenericTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflect/generic/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflect/getAnnotation/MyColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflect/getAnnotation/MyTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflect/getAnnotation/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflect/getAnnotation/TestGetAnnotationByReflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflect/newObject/newObjectTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBFrame/DBFrame.md" beforeDir="false" afterPath="$PROJECT_DIR$/../DBFrame/DBFrame.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/thread.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/thread.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/first/TestVector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/first/TestVector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/HashMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/HashMapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/LinkedHashMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/LinkedHashMapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/TreeMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/map/TreeMapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/HashSetAboutStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/HashSetAboutStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/HashSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/HashSetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/LinkedHashSetAboutStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/LinkedHashSetAboutStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/LinkedHashSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/LinkedHashSetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetAboutStudent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetAboutStudent$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetAboutStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetAboutStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/set/TreeSetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/HashSet/HashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/HashSet/HashSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/HashSet/TestHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/HashSet/TestHashSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/IndexOutOfBoundsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/IndexOutOfBoundsException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/Iterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/Iterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/List.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/Map$Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/Map$Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/Map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/Set.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/Set.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/arrayList/ArrayList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/arrayList/ArrayList$Itr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/arrayList/ArrayList$Itr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/arrayList/ArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/arrayList/ArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/arrayList/TestArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/arrayList/TestArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/hashMap/HashMap$Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/hashMap/HashMap$Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/hashMap/HashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/hashMap/HashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/hashMap/TestHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/hashMap/TestHashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/linked/doubleLinked/DoubleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/linked/doubleLinked/DoubleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/linked/doubleLinked/DoubleNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/linked/doubleLinked/DoubleNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/linked/doubleLinked/TestDoubleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/linked/doubleLinked/TestDoubleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/linked/singleLinked/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/linked/singleLinked/SingleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/linked/singleLinked/SingleNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/linked/singleLinked/SingleNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/linked/singleLinked/TestSingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/sources/linked/singleLinked/TestSingleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/third/ConcurrentHashMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/third/ConcurrentHashMapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/third/CopyOnWriteArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/third/CopyOnWriteArrayListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/third/CopyOnWriteArraySetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/third/CopyOnWriteArraySetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/third/OtherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/third/OtherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Collection/tools/CollectionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Collection/tools/CollectionsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/genericity/genericity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/genericity/genericity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/DataStreamTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/DataStreamTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/FileBufferReaderWriterTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/FileBufferReaderWriterTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/FileBufferReaderWriterTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/FileBufferReaderWriterTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/FileBufferReaderWriterTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/FileBufferReaderWriterTest3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/FileBufferStreamTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/FileBufferStreamTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/FileBufferStreamTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/FileBufferStreamTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/FileReaderWriterTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/FileReaderWriterTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/FileReaderWriterTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/FileReaderWriterTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/FileStreamTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/FileStreamTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/FileStreamTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/FileStreamTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/ObjectStreamTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/ObjectStreamTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/PrintStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/PrintStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/StreamToReaderAndWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/StreamToReaderAndWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/Student1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/Student1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/Student2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/Student2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/io/TestOtherStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/io/TestOtherStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/network/base/InetAddressTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/network/base/InetAddressTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/network/base/InetSocketAddressTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/network/base/InetSocketAddressTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/network/base/URLTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/network/base/URLTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/network/tcp/fileUpload/TCPClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/network/tcp/fileUpload/TCPClientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/network/tcp/fileUpload/TCPServerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/network/tcp/fileUpload/TCPServerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/network/tcp/login/LoginClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/network/tcp/login/LoginClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/network/tcp/login/LoginServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/network/tcp/login/LoginServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/network/tcp/loginThread/LoginThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/network/tcp/loginThread/LoginThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/network/tcp/loginThread/LoginThreadClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/network/tcp/loginThread/LoginThreadClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/network/tcp/loginThread/LoginThreadServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/network/tcp/loginThread/LoginThreadServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/network/udp/ClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/network/udp/ClientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/network/udp/ServerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/network/udp/ServerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/reflect/code/ClassTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/reflect/code/ClassTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/reflect/code/StringReflectObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/reflect/code/StringReflectObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/reflect/reflect.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/reflect/reflect.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/base/CallableTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/base/CallableTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/base/RandomCallable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/base/RandomCallable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/base/RunnableTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/base/RunnableTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/base/Student1Runnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/base/Student1Runnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/base/Student1Thread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/base/Student1Thread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/base/Student2Runnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/base/Student2Runnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/base/Student2Thread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/base/Student2Thread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/base/ThreadTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/base/ThreadTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/blackingQueue/ConsumerRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/blackingQueue/ConsumerRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/blackingQueue/ProducerConsumerTestnVnBlockingQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/blackingQueue/ProducerConsumerTestnVnBlockingQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/blackingQueue/ProductFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/blackingQueue/ProductFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/blackingQueue/ProductRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/blackingQueue/ProductRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/forkJoin/ForkJoinSumTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/forkJoin/ForkJoinSumTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/LockTest3$Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/LockTest3$Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/LockTest3$AccountRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/LockTest3$AccountRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/LockTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/LockTest3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/SynchronizedTest1$Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/SynchronizedTest1$Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/SynchronizedTest1$AccountRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/SynchronizedTest1$AccountRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/SynchronizedTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/SynchronizedTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/SynchronizedTest2$Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/SynchronizedTest2$Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/SynchronizedTest2$AccountRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/SynchronizedTest2$AccountRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/SynchronizedTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/SynchronizedTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/TicketRunnable1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/TicketRunnable1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/TicketRunnable2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/TicketRunnable2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/TicketRunnable3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/TicketRunnable3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/TicketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lock/TicketTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lockAPI/LockAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lockAPI/LockAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lockAPI/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lockAPI/Operator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lockAPI/TestReentrantReadWriteLock$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lockAPI/TestReentrantReadWriteLock$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lockAPI/TestReentrantReadWriteLock$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lockAPI/TestReentrantReadWriteLock$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/lockAPI/TestReentrantReadWriteLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/lockAPI/TestReentrantReadWriteLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/pool/MyCallable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/pool/MyCallable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/pool/MyRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/pool/MyRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/pool/ThreadPoolExecutorTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/pool/ThreadPoolExecutorTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/pool/ThreadPoolExecutorTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/pool/ThreadPoolExecutorTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/V1_1/ConsumerRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/V1_1/ConsumerRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/V1_1/ProducerConsumerTest1V1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/V1_1/ProducerConsumerTest1V1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/V1_1/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/V1_1/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/V1_1/ProductRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/V1_1/ProductRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/V1_n/ConsumerRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/V1_n/ConsumerRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/V1_n/ProducerConsumerTest1Vn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/V1_n/ProducerConsumerTest1Vn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/V1_n/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/V1_n/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/V1_n/ProductRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/V1_n/ProductRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_lock/ConsumerRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_lock/ConsumerRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_lock/ProducerConsumerTestnVn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_lock/ProducerConsumerTestnVn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_lock/ProductFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_lock/ProductFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_lock/ProductRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_lock/ProductRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_synchronized/ConsumerRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_synchronized/ConsumerRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_synchronized/ProducerConsumerTestnVn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_synchronized/ProducerConsumerTestnVn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_synchronized/ProductFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_synchronized/ProductFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_synchronized/ProductRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/producerConsumer/Vn_n_synchronized/ProductRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/thread.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/thread.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/volatile_guanJianZi/TestVolatile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/volatile_guanJianZi/TestVolatile$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/thread/volatile_guanJianZi/TestVolatile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/thread/volatile_guanJianZi/TestVolatile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reflect/code/ClassTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reflect/code/ClassTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reflect/code/StringReflectObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reflect/code/StringReflectObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reflect/reflect.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/reflect/reflect.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +192,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -47,135 +223,149 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CallableTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClassTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClientTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConcurrentHashMapTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CopyOnWriteArrayListTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CopyOnWriteArraySetTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataStreamTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileBufferReaderWriterTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileBufferReaderWriterTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileBufferReaderWriterTest3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileBufferStreamTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileBufferStreamTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileReaderWriterTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileReaderWriterTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileStreamTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileStreamTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileStreamTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForkJoinSumTask.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashMapTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashSetAboutStudent.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashSetTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InetAddressTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InetSocketAddressTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedHashMapTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedHashSetAboutStudent.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedHashSetTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LockAPI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LockTest3 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.LockTest3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LockTest_Ticket (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.LockTest_Ticket.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoginClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoginServer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoginThreadClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoginThreadServer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectStreamTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OtherTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumerTest1V1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumerTestnVn.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumerTestnVnBlockingQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ServerTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringReflectObject.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest1 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest1 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest1 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest1 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest1 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest2 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest2 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TCPClientTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TCPServerTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestDoubleLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestHashMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestHashSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestReentrantReadWriteLock.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestSingleLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestVector.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestVolatile (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestVolatile (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestVolatile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPoolExecutorTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPoolExecutorTest2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPoolExecutorTest2 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPoolExecutorTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicketTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicketTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeMapTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeMapTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeSetAboutStudent.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeSetTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.URLTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.genericity.executor&quot;: &quot;Run&quot;,
-    &quot;Application.thread.producerConsumer.Vn_n_lock.ProducerConsumerTestnVn.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/note/github/Java-note/JavaSE/src/thread/blackingQueue&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15527344&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CallableTest1.executor": "Run",
+    "Application.ClassTest1.executor": "Run",
+    "Application.ClientTest.executor": "Run",
+    "Application.CollectionsTest.executor": "Run",
+    "Application.ConcurrentHashMapTest.executor": "Run",
+    "Application.CopyOnWriteArrayListTest.executor": "Run",
+    "Application.CopyOnWriteArraySetTest.executor": "Run",
+    "Application.DataStreamTest1.executor": "Run",
+    "Application.FieldsTest.executor": "Run",
+    "Application.FileBufferReaderWriterTest1.executor": "Run",
+    "Application.FileBufferReaderWriterTest2.executor": "Run",
+    "Application.FileBufferReaderWriterTest3.executor": "Run",
+    "Application.FileBufferStreamTest1.executor": "Run",
+    "Application.FileBufferStreamTest2.executor": "Run",
+    "Application.FileReaderWriterTest1.executor": "Run",
+    "Application.FileReaderWriterTest2.executor": "Run",
+    "Application.FileStreamTest.executor": "Run",
+    "Application.FileStreamTest1.executor": "Run",
+    "Application.FileStreamTest2.executor": "Run",
+    "Application.ForkJoinSumTask.executor": "Run",
+    "Application.GainDataProperties.executor": "Run",
+    "Application.GenericTest1.executor": "Run",
+    "Application.GenericTest2.executor": "Run",
+    "Application.HashMapTest.executor": "Run",
+    "Application.HashSetAboutStudent.executor": "Run",
+    "Application.HashSetTest.executor": "Run",
+    "Application.InetAddressTest.executor": "Run",
+    "Application.InetSocketAddressTest.executor": "Run",
+    "Application.JDK12.executor": "Run",
+    "Application.LamdaTest1 (1).executor": "Run",
+    "Application.LamdaTest1.executor": "Run",
+    "Application.LinkedHashMapTest.executor": "Run",
+    "Application.LinkedHashSetAboutStudent.executor": "Run",
+    "Application.LinkedHashSetTest.executor": "Run",
+    "Application.LockAPI.executor": "Run",
+    "Application.LockTest3 (1).executor": "Run",
+    "Application.LockTest3.executor": "Run",
+    "Application.LockTest_Ticket (1).executor": "Run",
+    "Application.LockTest_Ticket.executor": "Run",
+    "Application.LoginClient.executor": "Run",
+    "Application.LoginServer.executor": "Run",
+    "Application.LoginThreadClient.executor": "Run",
+    "Application.LoginThreadServer.executor": "Run",
+    "Application.MethodTest1.executor": "Run",
+    "Application.NewDateTimeTest.executor": "Run",
+    "Application.ObjectStreamTest1.executor": "Run",
+    "Application.OtherTest.executor": "Run",
+    "Application.ProducerConsumerTest1V1.executor": "Run",
+    "Application.ProducerConsumerTestnVn.executor": "Run",
+    "Application.ProducerConsumerTestnVnBlockingQueue.executor": "Run",
+    "Application.ServerTest.executor": "Run",
+    "Application.StreamTest.executor": "Run",
+    "Application.StringReflectObject.executor": "Run",
+    "Application.SynchronizedTest1 (1).executor": "Run",
+    "Application.SynchronizedTest1 (2).executor": "Run",
+    "Application.SynchronizedTest1 (3).executor": "Run",
+    "Application.SynchronizedTest1 (4).executor": "Run",
+    "Application.SynchronizedTest1 (5).executor": "Run",
+    "Application.SynchronizedTest1.executor": "Run",
+    "Application.SynchronizedTest2 (1).executor": "Run",
+    "Application.SynchronizedTest2 (2).executor": "Run",
+    "Application.SynchronizedTest2 (3).executor": "Run",
+    "Application.SynchronizedTest2.executor": "Run",
+    "Application.TCPClientTest.executor": "Run",
+    "Application.TCPServerTest.executor": "Run",
+    "Application.TestArrayList.executor": "Run",
+    "Application.TestDoubleLinkedList.executor": "Run",
+    "Application.TestGetAnnotationByReflect.executor": "Run",
+    "Application.TestHashMap.executor": "Run",
+    "Application.TestHashSet.executor": "Run",
+    "Application.TestReentrantReadWriteLock.executor": "Run",
+    "Application.TestSingleLinkedList.executor": "Run",
+    "Application.TestVector.executor": "Run",
+    "Application.TestVolatile (1).executor": "Run",
+    "Application.TestVolatile (2).executor": "Run",
+    "Application.TestVolatile.executor": "Run",
+    "Application.TestZCG.executor": "Run",
+    "Application.ThreadPoolExecutorTest1.executor": "Run",
+    "Application.ThreadPoolExecutorTest2 (1).executor": "Run",
+    "Application.ThreadPoolExecutorTest2 (2).executor": "Run",
+    "Application.ThreadPoolExecutorTest2.executor": "Run",
+    "Application.ThreadTest1.executor": "Run",
+    "Application.TicketTest (1).executor": "Run",
+    "Application.TicketTest.executor": "Run",
+    "Application.TreeMapTest (1).executor": "Run",
+    "Application.TreeMapTest.executor": "Run",
+    "Application.TreeSetAboutStudent.executor": "Run",
+    "Application.TreeSetTest.executor": "Run",
+    "Application.URLTest.executor": "Run",
+    "Application.genericity.executor": "Run",
+    "Application.newObjectTest1.executor": "Run",
+    "Application.thread.producerConsumer.Vn_n_lock.ProducerConsumerTestnVn.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/note/github/Java-note/JavaSE/src/jdkVersion",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15527344",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="reflect.getAnnotation" />
       <recent name="collection.sources.arrayList" />
       <recent name="thread" />
       <recent name="io" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\note\github\Java-note\JavaSE\src\jdkVersion" />
+      <recent name="D:\note\github\Java-note\JavaSE\src\properties" />
       <recent name="D:\note\github\Java-note\JavaSE\src\thread\blackingQueue" />
       <recent name="D:\note\github\Java-note\JavaSE\src\thread\producerConsumer\Vn_n_lock" />
       <recent name="D:\note\github\Java-note\JavaSE\src\thread\producerConsumer" />
-      <recent name="D:\note\github\Java-note\JavaSE\src\thread\producerConsumer\V1_n" />
-      <recent name="D:\note\github\Java-note\JavaSE\src\network\tcp\fileUpload" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\note\github\Java-note\JavaSE\src\thread\images" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="reflect.generic" />
       <recent name="thread.lockAPI" />
       <recent name="collection.sources.linked.singleLinked" />
       <recent name="collection.sources.linked" />
       <recent name="network.tcp.fileUpload" />
-      <recent name="network.tcp.fileUploadDownLoad" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestVolatile (2)">
-    <configuration name="ProducerConsumerTestnVnBlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.blackingQueue.ProducerConsumerTestnVnBlockingQueue" />
+  <component name="RunManager" selected="Application.JDK12">
+    <configuration name="JDK12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdkVersion.jdk12.JDK12" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.blackingQueue.*" />
+          <option name="PATTERN" value="jdkVersion.jdk12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +373,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReentrantReadWriteLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.lockAPI.TestReentrantReadWriteLock" />
+    <configuration name="LamdaTest1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdkVersion.jdk8.LamdaTest1" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.lockAPI.*" />
+          <option name="PATTERN" value="jdkVersion.jdk8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,12 +386,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVolatile (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.volatile_guanJianZi.TestVolatile" />
+    <configuration name="NewDateTimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdkVersion.jdk8.NewDateTimeTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.volatile_guanJianZi.*" />
+          <option name="PATTERN" value="jdkVersion.jdk8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,12 +399,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVolatile (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.volatile_guanJianZi.TestVolatile" />
+    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdkVersion.jdk8.StreamTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.volatile_guanJianZi.*" />
+          <option name="PATTERN" value="jdkVersion.jdk8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,12 +412,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.volatile_guanJianZi.TestVolatile" />
+    <configuration name="TestZCG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdkVersion.jdk11.TestZCG" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.volatile_guanJianZi.*" />
+          <option name="PATTERN" value="jdkVersion.jdk11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,11 +427,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestVolatile (2)" />
-        <item itemvalue="Application.TestVolatile (1)" />
-        <item itemvalue="Application.TestVolatile" />
-        <item itemvalue="Application.ProducerConsumerTestnVnBlockingQueue" />
-        <item itemvalue="Application.TestReentrantReadWriteLock" />
+        <item itemvalue="Application.JDK12" />
+        <item itemvalue="Application.TestZCG" />
+        <item itemvalue="Application.NewDateTimeTest" />
+        <item itemvalue="Application.StreamTest" />
+        <item itemvalue="Application.LamdaTest1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -282,6 +472,12 @@
       <workItem from="1751099765130" duration="15312000" />
       <workItem from="1751158913643" duration="1981000" />
       <workItem from="1751175544672" duration="1002000" />
+      <workItem from="1751196756248" duration="4000" />
+      <workItem from="1751200439218" duration="963000" />
+      <workItem from="1751201434339" duration="2102000" />
+      <workItem from="1751244165772" duration="11106000" />
+      <workItem from="1751325641650" duration="17000" />
+      <workItem from="1751373729089" duration="6837000" />
     </task>
     <servers />
   </component>
