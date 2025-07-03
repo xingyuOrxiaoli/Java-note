@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+    <properties resource="jdbc.properties"></properties>
+
+    <settings>
+        <!--
+            logImpl
+            指定 MyBatis 所用日志的具体实现，未指定时将自动查找。
+            SLF4J | LOG4J（3.5.9 起废弃） | LOG4J2 | JDK_LOGGING | COMMONS_LOGGING | STDOUT_LOGGING | NO_LOGGING
+        -->
+        <setting name="logImpl" value="SLF4J"/>
+    </settings>
+
+    <typeAliases>
+<!--        <typeAlias type="com.lxy.pojo.Test1"  alias="test1"></typeAlias>-->
+        <package name="com.lxy.pojo"/>
+    </typeAliases>
+
+    
+
+    
+    <environments default="mysql">
+        <!-- MySQL数据库连接  -->
+        <environment id="mysql">
+
+            <!-- MyBatis 中的事务管理  目前的事务管理和JDBC中的事务管理保持一致 -->
+            <transactionManager type="JDBC">
+
+            </transactionManager>
+            <!--
+                底层使用数据库连接池连接数据库
+                    1. POOLED 使用连接池技术，访问频率比较高时使用，连接池的使用可以降低服务器压力，提高连接对象重用性
+                    2. UNPOOLED 不使用连接池技术每次对数据库访问时打开数据库连接，访问结束后关闭数据库连接。
+                    3. JNDI java命名目录接口，数据库的连接可以依赖于其他技术或应用
+            -->
+            <dataSource type="POOLED">
+<!--                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>-->
+<!--                <property name="url" value="jdbc:mysql://localhost:3308/note"/>-->
+<!--                <property name="username" value="root"/>-->
+<!--                <property name="password" value="root"/>-->
+
+                <property name="driver" value="${mysql_driver}"/>
+                <property name="url" value="${mysql_url}"/>
+                <property name="username" value="${mysql_username}"/>
+                <property name="password" value="${mysql_password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--  首先会找mapper包下的所有接口，然后去找和接口的名字相同的XML文件进行扫描      -->
+        <package name="com.lxy.A01.mapper"/>
+<!--        <mapper resource="com/lxy/A01/mapper/Test1Mapper.xml"/>-->
+    </mappers>
+</configuration>

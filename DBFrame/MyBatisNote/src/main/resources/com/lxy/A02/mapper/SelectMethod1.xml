@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lxy.A02.mapper.SelectMethod1">
+
+    <!-- 查询方法 1 -->
+    <select id="selectTest1" resultType="com.lxy.pojo.Test1">
+        select * from test1
+    </select>
+
+    <select id="selectTest2" resultType="test1">
+        select * from test1 where id = 1
+    </select>
+
+    <select id="selectTest3" resultType="map">
+        select * from test1
+    </select>
+
+</mapper>

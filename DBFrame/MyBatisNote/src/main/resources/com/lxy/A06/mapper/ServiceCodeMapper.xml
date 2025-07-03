@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lxy.A06.mapper.ServiceCodeMapper">
+
+    <select id="selectOneTest1" resultType="test1">
+        select * from test1 where id = #{param1}
+    </select>
+    <select id="selectMoreTest1" resultType="test1">
+        select * from test1 where id = #{param1}
+    </select>
+    <select id="selectServiceCodeTest2" resultType="test2">
+        select * from test2
+    </select>
+
+</mapper>

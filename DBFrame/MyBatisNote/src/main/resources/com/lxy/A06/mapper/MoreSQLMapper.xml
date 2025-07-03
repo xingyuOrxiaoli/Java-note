@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lxy.A06.mapper.MoreSQLMapper">
+
+
+    <resultMap id="rm1" type="test2">
+        <id column="id"  property="id"></id>
+        <result column="username" property="username"></result>
+        <result column="password" property="password"></result>
+        <result column="createtime" property="createtime"></result>
+
+        <association property="test1" javaType="test1">
+            <id column="id" property="id"></id>
+            <result column="username"  property="username"></result>
+            <result column="password" property="password"></result>
+        </association>
+
+        <collection property="test1List" ofType="test1" >
+            <id column="id" property="id"></id>
+            <result column="username"  property="username"></result>
+            <result column="password" property="password"></result>
+        </collection>
+
+    </resultMap>
+
+    <select id="selectMoreSQLTest" resultMap="rm1">
+        select * from test2 join test1 on test1.id=test2.id
+    </select>
+
+
+</mapper>

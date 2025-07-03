@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lxy.A06.mapper.N1Mapper">
+
+    <select id="selectOneTest1" resultType="test1">
+        select * from test1 where id = #{param1}
+    </select>
+    <select id="selectMoreTest1" resultType="test1">
+        select * from test1 where id = #{param1}
+    </select>
+    <resultMap id="rm1" type="test2">
+        <!-- 一样的时候可以省去 -->
+        <id column="id" property="id"></id>
+        <result column="username" property="username"></result>
+        <result column="password" property="password"></result>
+
+        <!-- 为test1属性赋值
+            select      执行那个方法
+            column      希望查询的哪一列作为参数进行传递
+            javaType    返回值类型
+            property    把返回值的结果赋值给我们对象那个值中
+         -->
+        <association select="com.lxy.A06.mapper.N1Mapper.selectOneTest1" column="id" javaType="test1" property="test1"></association>
+
+        <!-- 为集合赋值
+            select      执行那个方法
+            column      希望查询的哪一列作为参数进行传递
+            ofType      集合的泛型
+            property    把返回值的结果赋值给我们对象那个值中
+         -->
+        <collection  select="com.lxy.A06.mapper.N1Mapper.selectMoreTest1" column="id" ofType="test1" property="test1List"></collection>
+
+
+    </resultMap>
+
+
+    <select id="selectN1Test1" resultMap="rm1">
+        select * from test2
+    </select>
+
+</mapper>
