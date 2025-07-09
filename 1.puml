@@ -1,0 +1,12 @@
+graph TD
+    A[遥测数据] -->|传感器状态| B(payload_anomaly_analyzer.py)
+    A -->|质量控制| C(preprocess.py)
+    D[TLE数据] -->|轨道计算| E(orbit_environment_risk_model.py)
+    D -->|一致性校验| F(hdf_validation.py)
+    G[空间环境参数] -->|风险评估| E
+    G -->|噪声校正| H(st_cnn_detector.py)
+    C -->|预处理后数据| H
+    E -->|风险特征| I(model_integrator.py)
+    B -->|异常特征| I
+
+    H -->|检测结果| I

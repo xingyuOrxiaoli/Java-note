@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd
+            http://www.springframework.org/schema/task
+            http://www.springframework.org/schema/task/spring-task.xsd
+            http://www.springframework.org/schema/tx
+            http://www.springframework.org/schema/tx/spring-tx.xsd">
+    <context:component-scan base-package="maven.spring"/>
+    <!--MyBatis plus与Spring的整合配置 -->
+    <!--数据源-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://127.0.0.1:3308/learndatabase?useUnicode=true&amp;characterEncoding=UTF-8"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+        <property name="initialSize" value="5"/>
+        <property name="maxActive" value="20"/>
+    </bean>
+    <!--SessionFactoryBean-->
+    <bean id="sessionFactory" class="com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="mapperLocations" value="classpath:maven/spring/mapper/*.xml"/>
+        <property name="configLocation" value="classpath:maven/spring/mybatis-config.xml"/>
+        <!-- MyBaitsPlus3.4以后版本配置分页插件-->
+        <property name="plugins">
+            <array>
+                <bean class="com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor">
+                    <property name="interceptors">
+                        <list>
+                            <bean class="com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor"/>
+                        </list>
+                    </property>
+                </bean>
+            </array>
+        </property>
+    </bean>
+
+    <!-- 配置mp的全局策略 -->
+    <bean id="globalconfig" class="com.baomidou.mybatisplus.core.config.GlobalConfig" >
+        <!-- 配置全局默认参数 -->
+        <property name="dbConfig">
+            <bean id="dbConfig" class="com.baomidou.mybatisplus.core.config.GlobalConfig$DbConfig">
+                <!-- 前缀-->
+                <property name="tablePrefix" value=""></property>
+                <!-- 主键自增-->
+                <property name="idType" value="AUTO"></property>
+            </bean>
+        </property>
+
+    </bean>
+    <!--配置Mapper扫描器-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="maven.spring.mapper"/>
+    </bean>
+    <!--定义事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <!--开启事务注解 -->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+</beans>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/aop
+            https://www.springframework.org/schema/aop/spring-aop.xsd
+            http://www.springframework.org/schema/tx
+            https://www.springframework.org/schema/tx/spring-tx.xsd
+            http://www.springframework.org/schema/context
+            https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+
+
+    <context:component-scan base-package="spring"></context:component-scan>
+
+    <!-- 加载配置文件 -->
+    <context:property-placeholder location="classpath:spring/properties/db.properties"></context:property-placeholder>
+
+    <!--
+            依赖注入 > 属性文件扫描  > 属性注入
+    -->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${mysql.driver}"></property>
+        <property name="username" value="${mysql.username}"></property>
+        <property name="password" value="${mysql.password}"></property>
+        <property name="url" value="${mysql.url}"></property>
+    </bean>
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+    <bean id="mapper" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
+        <property name="basePackage" value="spring.mybatis.mapper"></property>
+    </bean>
+
+
+</beans>

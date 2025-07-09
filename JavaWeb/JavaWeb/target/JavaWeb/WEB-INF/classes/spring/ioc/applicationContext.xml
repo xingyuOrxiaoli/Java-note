@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="testService" class="spring.ioc.service.ImpI.TestServiceImpI"></bean>
+
+    <bean id="student_constructor" class="spring.ioc.entity.Student">
+        <constructor-arg index="0" name="sno" type="java.lang.String" value="01"></constructor-arg>
+        <constructor-arg index="1" name="id" type="java.lang.Integer" value="01"></constructor-arg>
+        <constructor-arg index="2" name="username" type="java.lang.String" value="01"></constructor-arg>
+        <constructor-arg index="3" name="password" type="java.lang.String" value="01"></constructor-arg>
+        <constructor-arg index="4" name="sex" type="java.lang.String" value="01"></constructor-arg>
+        <constructor-arg index="5" name="classId" type="java.lang.Integer" value="01"></constructor-arg>
+    </bean>
+    <bean id="student_get_set" class="spring.ioc.entity.Student">
+        <property name="username" value="username_get_set"></property>
+    </bean>
+
+    <bean id="student_factory" class="spring.ioc.entity.StudentFactory"></bean>
+    <!--动态工厂-->
+    <bean id="student_factory_new" factory-bean="student_factory" factory-method="newIntance"></bean>
+    <!--静态工厂-->
+    <bean id="student_static_factory_new" class="spring.ioc.entity.StudentStaticFactory" factory-method="newIntance"></bean>
+
+    <!--  单例 多例    bean scope="prototype   -->
+    <bean id="student_scope_singleton" class="spring.ioc.entity.StudentSingleton" scope="singleton"></bean>
+    <bean id="student_scope_prototype" class="spring.ioc.entity.StudentPrototype" scope="prototype"></bean>
+    <!--
+        TODO autowire 自动注入和手动注入
+        ByName : 按照id 和属性名
+        ByType : 按照类型注入
+        constructor 按照构造器自动注入
+    -->
+
+
+</beans>

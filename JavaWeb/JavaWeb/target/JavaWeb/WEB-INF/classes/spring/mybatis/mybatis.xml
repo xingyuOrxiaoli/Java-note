@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <properties resource="spring/mybatis/jdbc.properties"/>
+    
+    <settings>
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+    <!--配置别名-->
+    <typeAliases>
+<!--        <typeAlias type="mybatis.entity.Student" alias="student"/>-->
+<!--        -->
+        <package name="spring.mybatis.entity"/>
+    </typeAliases>
+    <environments default="mysql">
+        <environment id="mysql">
+            <!-- MyBatis中的实物管理  目前的实物管理和JDBC中的事务保持一致-->
+            <transactionManager type="JDBC"/>
+            <!-- 底层使用连接池链接数据库-->
+            <dataSource type="POOLED">
+<!--                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>-->
+<!--                <property name="url" value="jdbc:mysql://127.0.0.1:3308/learndatabase?characterEncoding=utf8&amp;userSSL=false"/>-->
+<!--                <property name="username" value="root"/>-->
+<!--                <property name="password" value="root"/>-->
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+
+
+    </environments>
+    <mappers>
+<!--        <mapper resource="mybatis/mapper/StudentSelect.xml"/>-->
+<!--        <mapper resource="mybatis/StudentInsert.xml"/>-->
+<!--        <mapper resource="mybatis/StudentUpdate.xml"/>-->
+<!--        <mapper resource="mybatis/StudentDelete.xml"/>-->
+<!--        <package name="spring.mybatis.mapper"/>-->
+    </mappers>
+    
+</configuration>

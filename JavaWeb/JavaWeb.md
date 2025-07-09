@@ -1,4 +1,4 @@
-# 关于JavaWeb中的JSP、Tomcat等的基础使用
+# 关于JavaWeb中的JSP、Tomcat、SpringMVC以及其框架等的基础使用
 
 ## JSP
 
@@ -14,6 +14,12 @@
   - request
   - response
   - out
+  - seesion
+  - application
+  - page
+  - config
+  - pageContext
+  - exception
 - 静态包含 动态包含
   - 动态包含会产生class文件  静态包含不会产生class文件
   - 静态相当于代码的复制到新的文件  动态包含相当于方法的调用
@@ -27,4 +33,33 @@
     - page
     - taglib
     - include
-    - 
+
+
+## 过滤器
+
+
+## 拦截器 
+
+## 监听器
+
+
+
+## Spring 基础知识点
+1. IOC
+2. AOP
+3. TX
+
+
+## SpringMVC基础知识点
+
+1. SpringMVC 的基本使用流程
+2. SpringMVC 的单元方法获取请求
+3. SpringMVC 的单元方法的响应方式
+4. SpringMVC 处理异步ajax请求
+5. SpringMVC 的自定义视图解析器
+6. SpringMVC 的上传下载
+7. 拦截器
+8. 运行原理
+
+
+

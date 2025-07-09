@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/aop
+            http://www.springframework.org/schema/aop/spring-aop.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd
+        ">
+
+
+
+    <!-- 开启  cglib 动态代理 -->
+    <aop:aspectj-autoproxy proxy-target-class="true"></aop:aspectj-autoproxy>
+
+    <!--配置注解扫描路径 -->
+    <context:component-scan base-package="spring.aop.advice"></context:component-scan>
+    <bean id="testServiceAop2" class="spring.aop.service.TestServiceAop2"></bean>
+    <!-- 配置AOP注解生效  -->
+    <aop:aspectj-autoproxy expose-proxy="true"></aop:aspectj-autoproxy>
+
+    <bean id="testServiceAop1" class="spring.aop.service.TestServiceAop1"></bean>
+
+    <bean id="before" class="spring.aop.advice.MyBefore"></bean>
+    <bean id="after"  class="spring.aop.advice.MyAfter"></bean>
+    <bean id="round"  class="spring.aop.advice.MyRound"></bean>
+
+    <bean id="throw"  class="spring.aop.advice.MyThrow"></bean>
+    <!-- 配置扩展组装规则 -->
+    <aop:config>
+        <!--  指明要进行功能扩展的方法 -->
+        <aop:pointcut id="mp" expression="execution(* spring.aop.service.TestServiceAop1.testA(String ,String ) ) "/>
+        <!--  组件 -->
+        <aop:advisor advice-ref="before" pointcut-ref="mp"></aop:advisor>
+        <aop:advisor advice-ref="after"  pointcut-ref="mp"></aop:advisor>
+        <aop:advisor advice-ref="round"  pointcut-ref="mp"></aop:advisor>
+        <aop:advisor advice-ref="throw"  pointcut-ref="mp"></aop:advisor>
+    </aop:config>
+
+
+    <bean id="aspectJAdvice" class="spring.aop.advice.AspectJAdvice"></bean>
+    <aop:config>
+        <aop:aspect ref="aspectJAdvice">
+            <!-- 声明切点 -->
+            <aop:pointcut id="aj" expression="execution(* spring.aop.service.TestServiceAop1.testAJ(..))"/>
+            
+            <aop:before method="before" pointcut-ref="aj" ></aop:before>
+            <aop:after method="after" pointcut-ref="aj"></aop:after>
+            <aop:around method="myRound" pointcut-ref="aj"></aop:around>
+            <aop:after-throwing method="myThrow" pointcut-ref="aj" throwing="e"></aop:after-throwing>
+        </aop:aspect>
+    </aop:config>
+
+</beans>

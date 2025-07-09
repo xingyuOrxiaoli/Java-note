@@ -1,0 +1,24 @@
+<project>
+   <!--
+      jar :生成jar包，说明这是一个Java工程
+      war :生成war包，说明这是一个Web工程
+      pom :说明这个工程是用来管理其他工程的工程
+
+   -->
+   <packaging>jar</packaging>
+   <!--
+      在Maven中自定义属性值
+   -->
+   <properties>
+      <!--  在构建过程中读取源码时使用的字符集 -->
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+   </properties>
+
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>root</groupId>
+   <version>1.0</version>
+   <artifactId>ProjectMaven</artifactId>
+   <name>project</name>
+
+
+</project>

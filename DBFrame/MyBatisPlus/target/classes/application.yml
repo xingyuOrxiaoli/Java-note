@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql//127.0.0.01:3308/learndatabase
+    username: root
+    password: root
+
