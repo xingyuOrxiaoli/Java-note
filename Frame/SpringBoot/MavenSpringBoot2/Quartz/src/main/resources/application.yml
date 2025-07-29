@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3308/note?useSSL=false
+  quartz:
+    jdbc:
+      initialize-schema: never
+      # 说明任务调度器的信息持久化到数据库中
+    job-store-type: jdbc
+
+

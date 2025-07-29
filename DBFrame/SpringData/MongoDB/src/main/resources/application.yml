@@ -1,0 +1,17 @@
+
+
+spring:
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 22017
+      database: springdata
+      username: "xiaoli"
+      password: "xiaoli"
+      authentication-database: admin
+
+
+
+
+
+

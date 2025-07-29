@@ -1,0 +1,128 @@
+apply plugin: 'java-library'
+apply plugin: 'org.springframework.build.conventions'
+apply plugin: 'org.springframework.build.optional-dependencies'
+// Uncomment the following for Shadow support in the jmhJar block.
+// Currently commented out due to ZipException: archive is not a ZIP archive
+// apply plugin: 'io.github.goooler.shadow'
+apply plugin: 'me.champeau.jmh'
+apply from: "$rootDir/gradle/publications.gradle"
+apply plugin: 'net.ltgt.errorprone'
+
+dependencies {
+	jmh 'org.openjdk.jmh:jmh-core:1.37'
+	jmh 'org.openjdk.jmh:jmh-generator-annprocess:1.37'
+	jmh 'org.openjdk.jmh:jmh-generator-bytecode:1.37'
+	jmh 'net.sf.jopt-simple:jopt-simple'
+	errorprone 'com.uber.nullaway:nullaway:0.10.26'
+	errorprone 'com.google.errorprone:error_prone_core:2.9.0'
+}
+
+pluginManager.withPlugin("kotlin") {
+	apply plugin: "org.jetbrains.dokka"
+	apply from: "${rootDir}/gradle/docs-dokka.gradle"
+}
+
+jmh {
+	duplicateClassesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+tasks.findByName("processJmhResources").configure {
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+jmhJar {
+	// Uncomment the following for Shadow's Transformer support.
+	// mergeServiceFiles()
+	// append('META-INF/spring.handlers')
+	// append('META-INF/spring.schemas')
+	// append('META-INF/spring.tooling')
+	exclude 'LICENSE'
+	exclude 'THIRD-PARTY'
+	exclude 'META-INF/license.txt'
+	exclude 'META-INF/notice.txt'
+	exclude 'META-INF/DEPENDENCIES'
+	exclude 'META-INF/LICENSE*'
+	exclude 'META-INF/NOTICE'
+	exclude 'META-INF/THIRD-PARTY'
+}
+
+jar {
+	manifest.attributes["Implementation-Title"] = project.name
+	manifest.attributes["Implementation-Version"] = project.version
+	manifest.attributes["Automatic-Module-Name"] = project.name.replace('-', '.')  // for Jigsaw
+	manifest.attributes["Created-By"] =
+			"${System.getProperty("java.version")} (${System.getProperty("java.specification.vendor")})"
+
+	from("${rootDir}/framework-docs/src/docs/dist") {
+		include "license.txt"
+		include "notice.txt"
+		into "META-INF"
+		expand(copyright: new Date().format("yyyy"), version: project.version)
+	}
+}
+
+normalization {
+	runtimeClasspath {
+		ignore "META-INF/MANIFEST.MF"
+	}
+}
+
+javadoc {
+	description = "Generates project-level javadoc for use in -javadoc jar"
+	failOnError = true
+	options {
+		encoding = "UTF-8"
+		memberLevel = JavadocMemberLevel.PROTECTED
+		author = true
+		header = project.name
+		use = true
+		links(project.ext.javadocLinks)
+		// Check for 'syntax' during linting. Note that the global
+		// 'framework-api:javadoc' task checks for 'reference' in addition
+		// to 'syntax'.
+		addBooleanOption("Xdoclint:syntax,-reference", true)
+		addBooleanOption('Werror', true)  // fail build on Javadoc warnings
+	}
+}
+
+tasks.register('sourcesJar', Jar) {
+	dependsOn classes
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+	archiveClassifier.set("sources")
+	from sourceSets.main.allSource
+	// Don't include or exclude anything explicitly by default. See SPR-12085.
+}
+
+tasks.register('javadocJar', Jar) {
+	archiveClassifier.set("javadoc")
+	from javadoc
+}
+
+publishing {
+	publications {
+		mavenJava(MavenPublication) {
+			from components.java
+			artifact sourcesJar
+			artifact javadocJar
+		}
+	}
+}
+
+// Disable publication of test fixture artifacts.
+components.java.withVariantsFromConfiguration(configurations.testFixturesApiElements) { skip() }
+components.java.withVariantsFromConfiguration(configurations.testFixturesRuntimeElements) { skip() }
+
+tasks.withType(JavaCompile).configureEach {
+	options.errorprone {
+		disableAllChecks = true
+		option("NullAway:CustomContractAnnotations", "org.springframework.lang.Contract")
+		option("NullAway:AnnotatedPackages", "org.springframework")
+		option("NullAway:UnannotatedSubPackages", "org.springframework.instrument,org.springframework.context.index," +
+				"org.springframework.asm,org.springframework.cglib,org.springframework.objenesis," +
+				"org.springframework.javapoet,org.springframework.aot.nativex.substitution,org.springframework.aot.nativex.feature")
+	}
+}
+tasks.compileJava {
+	// The check defaults to a warning, bump it up to an error for the main sources
+	options.errorprone.error("NullAway")
+}

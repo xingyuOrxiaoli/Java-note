@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class TestInterceptorApplication {
+import com.xiaoli.InterceptorApplication;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@SpringBootTest(classes = InterceptorApplication.class)
+public class TestInterceptorApplication {
+
+
 }

@@ -1,4 +1,4 @@
-package com.xiaoli;
+package com.xiaoli.shiro;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
@@ -9,7 +9,6 @@ import org.apache.shiro.subject.Subject;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 public class ShiroRunAuthorizer {
     public static void main(String[] args) {

@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
-<body>
-$END$
-</body>
+    <body>
+        thymeleaf 资源
+
+        <hr/>
+        使用th:text属性填充标签数据 <br/>
+        <span th:text="'你好我是th text'"></span><br/>
+        <span th:text="${name}"></span><br/>
+        <span th:text="${session.name}"></span><br/>
+
+        <hr/>
+        使用th:value属性填充标签数据 <br/>
+        <input type="text" th:value="${name}"><br/>
+        <input type="text" th:value="${session.name}"><br/>
+
+        <hr/>
+        使用th:if <br/>
+        <span type="text" th:if="${name}=='request'">显示request的name</span><br/>
+        <span type="text" th:if="${name}=='session'">显示session的name</span><br/>
+
+        <hr/>
+        使用th:each <br/>
+        <div th:each="u,i:${test1All}">
+            <span th:text="${i}"></span><br/>
+            <span th:text="${u.id}"></span><br/>
+            <span th:text="${u.username}"></span><br/>
+            <span th:text="${u.password}"></span><br/>
+            <span th:text="${u.password}"></span><br/>
+        </div>
+        <hr/>
+        使用th:href <br/>
+        <a th:href="@{/xiaoli/findAlLTest(id=1,username='username')}"> 查询 </a> <br/>
+
+    </body>
 </html>

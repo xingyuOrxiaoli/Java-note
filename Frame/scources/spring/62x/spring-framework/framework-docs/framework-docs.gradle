@@ -1,0 +1,75 @@
+plugins {
+	id 'kotlin'
+	id 'io.spring.antora.generate-antora-yml' version '0.0.1'
+	id 'org.antora' version '1.0.0'
+}
+
+description = "Spring Framework Docs"
+
+apply from: "${rootDir}/gradle/ide.gradle"
+apply from: "${rootDir}/gradle/publications.gradle"
+
+antora {
+	options = [clean: true, fetch: !project.gradle.startParameter.offline, stacktrace: true]
+	environment = [
+			'BUILD_REFNAME': 'HEAD',
+			'BUILD_VERSION': project.version,
+	]
+}
+
+tasks.named("generateAntoraYml") {
+	asciidocAttributes = project.provider( {
+		return  ["spring-version": project.version ]
+	} )
+}
+
+tasks.register("generateAntoraResources") {
+	dependsOn 'generateAntoraYml'
+}
+
+jar {
+	enabled = false
+}
+
+javadoc {
+	enabled = false
+}
+
+repositories {
+	maven {
+		url = "https://repo.spring.io/release"
+	}
+}
+
+dependencies {
+	implementation(project(":spring-aspects"))
+	implementation(project(":spring-context"))
+	implementation(project(":spring-context-support"))
+	implementation(project(":spring-core-test"))
+	implementation(project(":spring-jdbc"))
+	implementation(project(":spring-jms"))
+	implementation(project(":spring-test"))
+	implementation(project(":spring-web"))
+	implementation(project(":spring-webflux"))
+	implementation(project(":spring-webmvc"))
+	implementation(project(":spring-websocket"))
+
+	implementation("com.fasterxml.jackson.core:jackson-databind")
+	implementation("com.fasterxml.jackson.module:jackson-module-parameter-names")
+	implementation("com.mchange:c3p0:0.9.5.5")
+	implementation("com.oracle.database.jdbc:ojdbc11")
+	implementation("io.projectreactor.netty:reactor-netty-http")
+	implementation("jakarta.jms:jakarta.jms-api")
+	implementation("jakarta.servlet:jakarta.servlet-api")
+	implementation("jakarta.resource:jakarta.resource-api")
+	implementation("jakarta.validation:jakarta.validation-api")
+	implementation("jakarta.websocket:jakarta.websocket-client-api")
+	implementation("javax.cache:cache-api")
+	implementation("org.apache.activemq:activemq-ra:6.1.2")
+	implementation("org.apache.commons:commons-dbcp2:2.11.0")
+	implementation("org.aspectj:aspectjweaver")
+	implementation("org.assertj:assertj-core")
+	implementation("org.eclipse.jetty.websocket:jetty-websocket-jetty-api")
+	implementation("org.jetbrains.kotlin:kotlin-stdlib")
+	implementation("org.junit.jupiter:junit-jupiter-api")
+}

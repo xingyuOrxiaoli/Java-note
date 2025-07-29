@@ -1,4 +1,4 @@
-package com.xiaoli;
+package com.xiaoli.shiro;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;

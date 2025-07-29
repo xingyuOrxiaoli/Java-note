@@ -1,20 +1,13 @@
-package com.xiaoli;
+package com.xiaoli.shiro;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
-import org.apache.shiro.authz.AuthorizationInfo;
-import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.ini.IniSecurityManagerFactory;
 import org.apache.shiro.lang.util.ByteSource;
 import org.apache.shiro.lang.util.Factory;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.realm.AuthenticatingRealm;
-import org.apache.shiro.realm.AuthorizingRealm;
-import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
-
-import java.util.ArrayList;
-import java.util.Arrays;
 
 // 自定义认证规则
 public class ShiroRunRealm extends AuthenticatingRealm {

@@ -5,13 +5,14 @@
       pom :说明这个工程是用来管理其他工程的工程
 
    -->
-   <packaging>jar</packaging>
+   <packaging>war</packaging>
    <!--
       在Maven中自定义属性值
    -->
    <properties>
       <!--  在构建过程中读取源码时使用的字符集 -->
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <junit.version>4.13.2</junit.version>
    </properties>
 
    <modelVersion>4.0.0</modelVersion>
@@ -19,6 +20,96 @@
    <version>1.0</version>
    <artifactId>ProjectMaven</artifactId>
    <name>project</name>
+
+   <dependencies>
+
+      <!--
+          scope ：
+               1. test 给test代码实现的
+               2. compile     编译  默认  参与项目的编译 测试 运行阶段，属于强依赖，打包的时候会达到包里
+               3. runtime     依赖尽在运行周期使用，一般这种类库都是接口与实现相分离的类库，如JDBC
+               4. provided    该依赖在打包的过程中，不需要打进去。这个由运行环境提供，如tomcat或者基础类库等等，该依赖可以擦安于 编译 运行 测试
+               5. system      与provided相同，不同点在于：该依赖不从maven仓库中提取，而是从本地文件系统中提取，其会参考systemPath的属性和进行提取依赖
+               6. import      maven2.0.9版本之后的属性 ， 只能在dependencyManagement中使用，能解决maven单继承问题，  不参与限制依赖关系的传递性
+      -->
+      <dependency>
+         <groupId>junit</groupId>
+         <artifactId>junit</artifactId>
+         <version>${junit.version}</version>
+         <scope>test</scope>
+      </dependency>
+
+
+      <dependency>
+         <groupId>javax.servlet</groupId>
+         <artifactId>servlet-api</artifactId>
+         <version>2.5</version>
+         <scope>provided</scope>
+      </dependency>
+      <dependency>
+         <groupId>javax.servlet</groupId>
+         <artifactId>jsp-api</artifactId>
+         <version>2.0</version>
+         <scope>provided</scope>
+      </dependency>
+      <dependency>
+         <groupId>javax.servlet</groupId>
+         <artifactId>jstl</artifactId>
+         <version>1.2</version>
+         <scope>provided</scope>
+      </dependency>
+
+   </dependencies>
+
+   <!-- 配置第三方的 插件资源 -->
+   <build>
+      <plugins>
+         <plugin>
+            <!-- 插件的坐标 -->
+            <groupId>org.apache.tomcat.maven</groupId>
+            <artifactId>tomcat7-maven-plugin</artifactId>
+            <version>2.2</version>
+            <configuration>
+               <!-- 域名也可以 -->
+               <!-- 用于远程部署  点击   deploy按钮 不是 run按钮
+                  <url>http://ip:port/manager/text</url>
+               -->
+
+               <url>http://localhost:8088/</url>
+               <port>8088</port>
+               <path>/my</path>
+
+               <server>
+                  <id>TomcatServer</id>
+                  <username>username</username>
+                  <password>password</password>
+               </server>
+               <!-- 全局密钥配置  账号密码 在conf/tomcat-user进行配置
+                  <server>TomcatServer</server>
+                  <username>username</username>
+                  <password>password</password>
+
+               -->
+               <!-- true 将发布目录下的数据清空 -->
+               <update>true</update>
+            </configuration>
+         </plugin>
+      </plugins>
+
+      <resources>
+         <resource>
+            <directory>src/main/java</directory>
+            <includes>
+               <include>**/*.xml</include>
+            </includes>
+            <filtering>true</filtering>
+         </resource>
+         <resource>
+            <directory>src/main/resources</directory>
+            <filtering>true</filtering>
+         </resource>
+      </resources>
+   </build>
 
 
 </project>

@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/my")
-@Api(tags = "用户接口")
-public class MyController {
+@RequestMapping("/my2")
+@Api(tags = "用户接口2")
+public class MyController2 {
 
-    @RequestMapping(value = "/getUser" ,method= RequestMethod.GET)
+    @RequestMapping(value = "/get2User" ,method= RequestMethod.GET)
     @ApiOperation("获取用户列表")
-    public User getUser(Integer id , String username){
+    public User get2User(Integer id , String username){
         User user = new User(id, username, "password", 10);
         return user;
     }
